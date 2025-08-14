@@ -35,6 +35,13 @@
 h1, h2 {
     font-family: 'Waukegan LDO', sans-serif;
     letter-spacing: 3px;
+    color: var(--color-text-primary);
+    text-shadow: 3px 4px 0 var(--color-text-shadow);
+}
+
+p {
+    font-family: Merriweather Sans, sans-serif;
+    color: var(--color-text-primary);
 }
 
 body {
@@ -42,18 +49,18 @@ body {
     background-image: repeating-linear-gradient(
             0deg,
             var(--color-grid-light) 0,
-            var(--color-grid-light) 1px,
+            var(--color-grid-light) 4px,
             transparent 1px,
-            transparent 20px
+            transparent 10px
     ),
     repeating-linear-gradient(
             90deg,
             var(--color-grid-light) 0,
-            var(--color-grid-light) 1px,
+            var(--color-grid-light) 4px,
             transparent 1px,
-            transparent 20px
+            transparent 10px
     );
-    background-size: 20px 20px;
+    background-size: 10px 10px;
 }
 
 :root {
