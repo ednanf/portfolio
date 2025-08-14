@@ -1,68 +1,77 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'Waukegan LDO';
+    src: url('./assets/fonts/Waukegan-LDO.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Waukegan LDO';
+    src: url('./assets/fonts/Waukegan-LDO-Oblique.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Waukegan LDO';
+    src: url('./assets/fonts/Waukegan-LDO-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Work Sans, sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Waukegan LDO', sans-serif;
+    letter-spacing: 3px;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    /* Light theme color palette */
+    --color-bg-light: #c3bfa6;
+    --color-grid-light: #bdbaa1;
+    --color-text-primary-light: #3e3c34;
+    --color-text-shadow-light: #8e8b7f;
+    --color-screen-decoration-primary-light: #413f37;
+    --color-screen-decoration-secondary-light: #9d9986;
+    --color-shadow-light: #6c695d;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+    /* Semantic mapping */
+    --color-bg: var(--color-bg-light);
+    --color-grid: var(--color-grid-light);
+    --color-text-primary: var(--color-text-primary-light);
+    --color-text-shadow: var(--color-text-shadow-light);
+    --color-screen-decoration-primary: var(--color-screen-decoration-primary-light);
+    --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-light);
+    --color-shadow: var(--color-shadow-light);
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+[data-theme='dark'] {
+    /* Dark theme color palette */
+    --color-bg-dark: #3e3c34;
+    --color-grid-dark: #413f37;
+    --color-text-primary-dark: #c3bfa6;
+    --color-text-shadow-dark: #9d9986;
+    --color-screen-decoration-primary-dark: #bdbaa1;
+    --color-screen-decoration-secondary-dark: #c3bfa6;
+    --color-shadow-dark: #6c695d;
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+    /* Semantic mapping */
+    --color-bg: var(--color-bg-dark);
+    --color-grid: var(--color-grid-dark);
+    --color-text-primary: var(--color-text-primary-dark);
+    --color-text-shadow: var(--color-text-shadow-dark);
+    --color-screen-decoration-primary: var(--color-screen-decoration-primary-dark);
+    --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
+    --color-shadow: var(--color-shadow-dark);
 }
