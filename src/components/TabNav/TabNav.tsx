@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import LightThemeIcon from '../../assets/graphics/buttonIcon.svg?react';
 import styles from './TabNav.module.css';
 
 type Tab = {
@@ -14,6 +14,8 @@ type TabNavProps = {
 const TabNav = ({ tabs }: TabNavProps) => {
   const location = useLocation();
 
+  const iconStyle = { color: 'var(--color-screen-decoration-primary)' };
+
   return (
     <nav className={styles.tabNav}>
       {tabs.map((tab) => (
@@ -22,6 +24,7 @@ const TabNav = ({ tabs }: TabNavProps) => {
           to={tab.path}
           className={`${styles.tabButton} ${location.pathname === tab.path ? styles.active : ''}`}
         >
+          {<LightThemeIcon style={iconStyle} height="18px" width="8px" />}
           {tab.label.toUpperCase()}
         </Link>
       ))}

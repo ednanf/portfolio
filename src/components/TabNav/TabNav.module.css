@@ -16,7 +16,9 @@
     margin: 0;
     border-radius: 0;
     transition: border-color 0.2s, color 0.2s;
-    text-decoration: none; /* Add this to remove underline from links */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .tabButton:not(:last-child)::after {
