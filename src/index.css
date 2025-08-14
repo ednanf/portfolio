@@ -31,9 +31,29 @@
     font-family: Work Sans, sans-serif;
 }
 
+/* Text defaults */
 h1, h2 {
     font-family: 'Waukegan LDO', sans-serif;
     letter-spacing: 3px;
+}
+
+body {
+    background-color: var(--color-bg-light);
+    background-image: repeating-linear-gradient(
+            0deg,
+            var(--color-grid-light) 0,
+            var(--color-grid-light) 1px,
+            transparent 1px,
+            transparent 20px
+    ),
+    repeating-linear-gradient(
+            90deg,
+            var(--color-grid-light) 0,
+            var(--color-grid-light) 1px,
+            transparent 1px,
+            transparent 20px
+    );
+    background-size: 20px 20px;
 }
 
 :root {
