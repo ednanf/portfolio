@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import LightThemeIcon from '../../assets/graphics/buttonIcon.svg?react';
+import ButtonIcon from '../../assets/graphics/ButtonIcon.svg?react';
 import styles from './TabNav.module.css';
 
 type Tab = {
@@ -24,7 +24,7 @@ const TabNav = ({ tabs }: TabNavProps) => {
           to={tab.path}
           className={`${styles.tabButton} ${location.pathname === tab.path ? styles.active : ''}`}
         >
-          {<LightThemeIcon style={iconStyle} height="18px" width="8px" />}
+          {<ButtonIcon style={iconStyle} height="18px" width="8px" />}
           {tab.label.toUpperCase()}
         </Link>
       ))}
