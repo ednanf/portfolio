@@ -14,7 +14,7 @@ type TabNavProps = {
 const TabNav = ({ tabs }: TabNavProps) => {
   const location = useLocation();
 
-  const iconStyle = { color: 'var(--color-screen-decoration-primary)' };
+  const iconStyle = { color: 'var(--color-text-primary)' };
 
   return (
     <nav className={styles.tabNav}>

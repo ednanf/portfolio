@@ -18,7 +18,7 @@ const Button = ({ to, type = 'button', onClick, disabled, children }: ButtonProp
   const buttonText = children ? children.toString().toUpperCase() : '';
 
   // Use CSS variable for color
-  const iconStyle = { color: 'var(--color-screen-decoration-primary)' };
+  const iconStyle = { color: 'var(--color-text-primary)' };
 
   if (to && to.trim() !== '') {
     return (
