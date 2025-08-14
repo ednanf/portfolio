@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import styles from './Button.module.css';
 import LightThemeIcon from '../../assets/graphics/buttonDetailLight.svg?react';
 
+// TODO: implement logic for dark theme icon
+// TODO: add an 'active' prop to change styles with the useLocation hook
+
 type ButtonProps = {
   to?: string;
   type?: 'button' | 'submit' | 'reset';
@@ -17,9 +20,7 @@ const Button = ({ to, type = 'button', onClick, disabled, children }: ButtonProp
   if (to && to.trim() !== '') {
     return (
       <Link to={to} className={styles.buttonBody}>
-        <span className={styles.icon}>
-          <LightThemeIcon />
-        </span>
+        <LightThemeIcon height="12" width="6" />
         <span className={styles.text}>{buttonText}</span>
       </Link>
     );
@@ -27,9 +28,7 @@ const Button = ({ to, type = 'button', onClick, disabled, children }: ButtonProp
 
   return (
     <button className={styles.buttonBody} onClick={onClick} type={type} disabled={disabled}>
-      <span className={styles.icon}>
-        <LightThemeIcon />
-      </span>
+      <LightThemeIcon height="12" width="6" />
       <span className={styles.text}>{buttonText}</span>
     </button>
   );

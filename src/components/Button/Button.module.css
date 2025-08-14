@@ -1,8 +1,9 @@
 .buttonBody {
-    display: inline-block;
+    display: flex;
+    gap: 5px;
     font-family: 'Waukegan LDO', sans-serif;
     font-size: 16px;
-    /*font-weight: bold;*/
+    align-items: center;
     color: var(--color-text-primary);
     background-color: transparent;
     padding: 5px 10px;
@@ -10,12 +11,11 @@
     box-shadow: 2px 2px 0 var(--color-shadow);
     cursor: pointer;
     text-align: center;
-    transition: 200ms ease-in-out;
+    /*transition: 200ms ease-in-out;*/
 }
 
 .buttonBody:hover {
-    background-color: var(--color-text-primary);
-    color: var(--color-bg-light);
+    font-weight: bold;
 }
 
 .buttonBody:active {
