@@ -1,10 +1,14 @@
 import { Outlet } from 'react-router-dom';
+import HeaderBar from '../HeaderBar/HeaderBar.tsx';
+import styles from './Layout.module.css';
 
 const Layout = () => {
   return (
-    <div>
-      <h1>TESTE</h1>
-      <Outlet />
+    <div className={styles.layout}>
+      <HeaderBar />
+      <main className={styles.mainContent}>
+        <Outlet />
+      </main>
     </div>
   );
 };

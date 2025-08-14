@@ -1,0 +1,10 @@
+.headerBarBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--layout-padding);
+}
+
+.headerTitle {
+    font-size: 2rem;
+}
