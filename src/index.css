@@ -64,6 +64,8 @@ body {
 }
 
 :root {
+    --layout-padding: 1rem;
+
     /* Light theme color palette */
     --color-bg-light: #c3bfa6;
     --color-grid-light: #bdbaa1;
