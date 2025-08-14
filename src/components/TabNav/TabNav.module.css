@@ -1,37 +1,45 @@
-@import '../Button/Button.module.css';
-
 .tabNav {
-    display: flex;
-    border-bottom: 2px solid var(--color-shadow);
-    gap: 0;
+  display: flex;
+  border-bottom: 2px solid var(--color-shadow);
+  gap: 0;
+  margin-top: 10px;
 }
 
 .tabButton {
-    composes: buttonBody from '../Button/Button.module.css';
-    position: relative;
-    border: none;
-    border-bottom: 2px solid transparent;
-    background: transparent;
-    box-shadow: none;
-    margin: 0;
-    border-radius: 0;
-    transition: border-color 0.2s, color 0.2s;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0;
+  padding: 5px 10px;
+  font-family: 'Waukegan LDO', sans-serif;
+  font-size: 16px;
+  align-items: center;
+  color: var(--color-text-primary);
+  background: transparent;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  box-shadow: none;
+  position: relative;
+  border-radius: 0;
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+  text-decoration: none;
 }
 
+/* Divider */
 .tabButton:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 25%;
-    height: 50%;
-    width: 1px;
-    background: var(--color-shadow);
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background: var(--color-shadow);
 }
 
 .active {
-    border-bottom: 2px solid var(--color-text-primary);
-    font-weight: bold;
+  border-bottom: 2px solid var(--color-text-primary);
+  font-weight: bold;
 }
