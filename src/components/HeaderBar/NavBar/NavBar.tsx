@@ -1,13 +1,18 @@
-import Button from '../../Button/Button.tsx';
+import TabNav from '../../TabNav/TabNav.tsx';
 import styles from './NavBar.module.css';
+
+const TABS = [
+  { label: 'Curriculum', path: '/' },
+  { label: 'Projects', path: '/projects' },
+  { label: 'Contact', path: '/contact' },
+];
 
 const NavBar = () => {
   return (
-    <div className={styles.navBarBody}>
-      <Button disabled={false}>Curriculum</Button>
-      <Button disabled={false}>Projects</Button>
-      <Button disabled={false}>Contact</Button>
-    </div>
+    <nav className={styles.navBarBody}>
+      <TabNav tabs={TABS} />
+    </nav>
   );
 };
+
 export default NavBar;
