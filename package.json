@@ -1,12 +1,13 @@
 {
   "name": "portfolio-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "dev:mobile": "vite --host",
     "dev:preview": "vite preview --host",
+    "prebuild": "npx ttf2woff2 src/assets/fonts/*.ttf",
     "build": "tsc -b && vite build",
     "lint": "eslint ."
   },
