@@ -9,7 +9,6 @@ import NotFoundPage from './pages/NotFoundPage/NotFoundPage.tsx';
 import CurriculumPage from './pages/CurriculumPage/CurriculumPage.tsx';
 import ProjectDetailsPage from './pages/ProjectDetailsPage/ProjectDetailsPage.tsx';
 import ProjectsPage from './pages/ProjectsPage/ProjectsPage.tsx';
-import ContactPage from './pages/ContactPage/ContactPage.tsx';
 
 const router = createBrowserRouter([
   {
@@ -28,10 +27,6 @@ const router = createBrowserRouter([
       {
         path: 'project-details',
         element: <ProjectDetailsPage />,
-      },
-      {
-        path: 'contact',
-        element: <ContactPage />,
       },
     ],
   },

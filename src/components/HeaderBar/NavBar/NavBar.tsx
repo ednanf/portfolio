@@ -8,7 +8,6 @@ const NavBar = () => {
   const TABS = [
     { label: t('nav.curriculum'), path: '/' },
     { label: t('nav.projects'), path: '/projects' },
-    { label: t('nav.contact'), path: '/contact' },
   ];
 
   return (
