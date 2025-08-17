@@ -65,11 +65,11 @@ const CurriculumPage = () => {
             <li>
               <div className={styles.listLinks}>
                 <a href="https://github.com/ednanf/game-journal">
-                  {t('projects.githubLink')} <VscLinkExternal size={12} />
+                  {t('projects.githubLink')} <VscLinkExternal />
                 </a>{' '}
                 |{' '}
                 <a href="https://game-journal-ednan.vercel.app">
-                  {t('projects.liveDemoLink')} <VscLinkExternal size={12} />
+                  {t('projects.liveDemoLink')} <VscLinkExternal />
                 </a>
               </div>
             </li>
@@ -86,11 +86,11 @@ const CurriculumPage = () => {
             <li>
               <div className={styles.listLinks}>
                 <a href="https://github.com/ednanf/mern-task-manager">
-                  {t('projects.githubLink')} <VscLinkExternal size={12} />{' '}
+                  {t('projects.githubLink')} <VscLinkExternal />{' '}
                 </a>
                 |{' '}
                 <a href="https://mern-task-manager-eight.vercel.app">
-                  {t('projects.liveDemoLink')} <VscLinkExternal size={12} />
+                  {t('projects.liveDemoLink')} <VscLinkExternal />
                 </a>
               </div>
             </li>
@@ -118,14 +118,14 @@ const CurriculumPage = () => {
               (cert: Certification) => (
                 <li key={cert.name}>
                   <a href={cert.url} target="_blank" rel="noopener noreferrer">
-                    {cert.name} <VscLinkExternal size={12} />
+                    {cert.name} <VscLinkExternal />
                   </a>
                 </li>
               ),
             )}
             <li>
               <a href="https://www.linkedin.com/in/ednanrff/details/certifications/">
-                {t('certifications.viewAll')} <VscLinkExternal size={12} />
+                {t('certifications.viewAll')} <VscLinkExternal />
               </a>
             </li>
           </ul>

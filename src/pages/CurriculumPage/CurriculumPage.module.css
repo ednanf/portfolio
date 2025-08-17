@@ -49,3 +49,10 @@
 .certifications {
   padding-bottom: 1rem;
 }
+
+.listLinks a svg,
+.certifications .list a svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
