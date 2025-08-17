@@ -1,13 +1,16 @@
+import { useTranslation } from 'react-i18next';
 import TabNav from '../../TabNav/TabNav.tsx';
 import styles from './NavBar.module.css';
 
-const TABS = [
-  { label: 'Curriculum', path: '/' },
-  { label: 'Projects', path: '/projects' },
-  { label: 'Contact', path: '/contact' },
-];
-
 const NavBar = () => {
+  const { t } = useTranslation();
+
+  const TABS = [
+    { label: t('nav.curriculum'), path: '/' },
+    { label: t('nav.projects'), path: '/projects' },
+    { label: t('nav.contact'), path: '/contact' },
+  ];
+
   return (
     <nav className={styles.navBarBody}>
       <TabNav tabs={TABS} />

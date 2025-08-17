@@ -1,0 +1,92 @@
+{
+  "contact": {
+    "title": "Informações de Contato",
+    "name": "Nome: Ednan Rogério Frizzera Filho",
+    "email": "Email: ednan@frizzera.dev",
+    "linkedin": "Linkedin",
+    "github": "GitHub"
+  },
+  "profile": {
+    "title": "Perfil de Desenvolvedor",
+    "body": "Desenvolvedor Fullstack com habilidades em React, Node.js e MongoDB. Experiente na construção e implantação de projetos pessoais e acadêmicos com UI limpa e responsiva. Apaixonado por aplicações web modernas e desenvolvimento colaborativo."
+  },
+  "techStack": {
+    "title": "Tecnologias",
+    "items": [
+      "Linguagens: TypeScript, JavaScript (ES6+)",
+      "Frontend: React, CSS Modules, Design Responsivo, Progressive Web Apps (PWA)",
+      "Backend: Node.js, Express.js, MongoDB (Mongoose), Autenticação JWT, APIs REST, Zod (validação)",
+      "Segurança e Middleware: Helmet, CORS, bcrypt, sanitização de entrada",
+      "Ferramentas: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
+    ]
+  },
+  "projects": {
+    "title": "Projetos",
+    "gameJournal": {
+      "title": "Game Journal",
+      "points": [
+        "Construí um PWA fullstack, instalável em iOS/Android.",
+        "Implementei autenticação de usuário e persistência de dados com MongoDB.",
+        "Implementei validação de dados com Zod e controle de acesso baseado em schema, garantindo segurança robusta e permissões de usuário.",
+        "Projetei uma UI responsiva com CSS Modules e React Router."
+      ]
+    },
+    "mernTaskManager": {
+      "title": "Gerenciador de Tarefas MERN",
+      "points": [
+        "Construí uma aplicação MERN fullstack para gerenciamento de tarefas.",
+        "Projetei uma API REST com Express e Mongoose com operações CRUD.",
+        "Implementei autenticação de usuário com JWT e rotas seguras.",
+        "Otimizei o frontend com design responsivo e CSS Modules para uma experiência de usuário fluida."
+      ]
+    },
+    "githubLink": "GitHub",
+    "liveDemoLink": "Demonstração"
+  },
+  "education": {
+    "title": "Formação",
+    "postgrad": {
+      "degree": "Pós-graduação em Análise e Desenvolvimento de Sistemas - PUC, 2025",
+      "focus": "Foco: Padrões Web, UX, Frontend (React), Backend (Node.js), Metodologias Ágeis"
+    },
+    "bachelor": {
+      "degree": "Bacharel em Direito - Faculdade de Direito de Franca, 2012",
+      "focus": "Foco: Raciocínio jurídico, consciência de conformidade, resolução estruturada de problemas"
+    }
+  },
+  "certifications": {
+    "title": "Certificações",
+    "viewAll": "Ver todas as certificações no LinkedIn",
+    "list": [
+      {
+        "name": "The Complete JavaScript Course: From Zero to Expert",
+        "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
+      },
+      {
+        "name": "React: The Complete Guide",
+        "url": "https://www.udemy.com/certificate/UC-1165a0e7-9da6-4556-bb71-00d6d92417cf/"
+      },
+      {
+        "name": "Node.js, Express, MongoDB & More",
+        "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
+      },
+      {
+        "name": "Formação Front-end - HTML, CSS, JavaScript, React",
+        "url": "https://www.udemy.com/certificate/UC-65f9321e-21dc-455b-b1d7-1b997c593d2c/"
+      },
+      {
+        "name": "iOS & Swift - The Complete iOS App Development Bootcamp",
+        "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
+      },
+      {
+        "name": "English Language Diploma - Pink and Blue",
+        "url": "https://www.linkedin.com/in/ednanrff/details/certifications/1755444372013/single-media-viewer/?type=DOCUMENT&profileId=ACoAABqsxoUBIyPE3dECZFKhjprtqenAAHm7AuU"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Idiomas",
+    "english": "Inglês (nível C2)",
+    "portuguese": "Português (nativo)"
+  }
+}

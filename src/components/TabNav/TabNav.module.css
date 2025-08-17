@@ -25,6 +25,9 @@
   transition:
     border-color 0.2s,
     color 0.2s;
+}
+
+.tabButton a {
   text-decoration: none;
 }
 

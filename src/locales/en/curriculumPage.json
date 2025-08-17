@@ -1,0 +1,92 @@
+{
+  "contact": {
+    "title": "Contact Info",
+    "name": "Name: Ednan Rogério Frizzera Filho",
+    "email": "Email: ednan@frizzera.dev",
+    "linkedin": "Linkedin",
+    "github": "GitHub"
+  },
+  "profile": {
+    "title": "Developer Profile",
+    "body": "Fullstack developer skilled in React, Node.js, and MongoDB. Experienced in building and deploying personal and academic projects with clean, responsive UI. Passionate about modern web applications and collaborative development."
+  },
+  "techStack": {
+    "title": "Tech Stack",
+    "items": [
+      "Languages: TypeScript, JavaScript (ES6+)",
+      "Frontend: React, CSS Modules, Responsive Design, Progressive Web Apps (PWA)",
+      "Backend: Node.js, Express.js, MongoDB (Mongoose), JWT Authentication, REST APIs, Zod (validation)",
+      "Security & Middleware: Helmet, CORS, bcrypt, input sanitization",
+      "Tooling: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "gameJournal": {
+      "title": "Game Journal",
+      "points": [
+        "Built a fullstack PWA, installable on iOS/Android.",
+        "Implemented user authentication and data persistence with MongoDB.",
+        "Implemented data validation with Zod and schema-based access control, ensuring robust security and user permissions.",
+        "Designed a responsive UI with CSS Modules and React Router."
+      ]
+    },
+    "mernTaskManager": {
+      "title": "MERN Task Manager",
+      "points": [
+        "Built a fullstack MERN application for task management.",
+        "Designed REST API with Express and Mongoose with CRUD operations.",
+        "Implemented user authentication with JWT and secured routes.",
+        "Optimized frontend with responsive design and CSS Modules for a seamless user experience."
+      ]
+    },
+    "githubLink": "GitHub",
+    "liveDemoLink": "Live Demo"
+  },
+  "education": {
+    "title": "Education",
+    "postgrad": {
+      "degree": "Postgraduate in Analysis and Development of Systems - PUC, 2025",
+      "focus": "Focus: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
+    },
+    "bachelor": {
+      "degree": "Bachelor of Law - Faculdade de Direito de Franca, 2012",
+      "focus": "Focus: Legal reasoning, compliance awareness, structured problem-solving"
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "viewAll": "View all certifications on LinkedIn",
+    "list": [
+      {
+        "name": "The Complete JavaScript Course: From Zero to Expert",
+        "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
+      },
+      {
+        "name": "React: The Complete Guide",
+        "url": "https://www.udemy.com/certificate/UC-1165a0e7-9da6-4556-bb71-00d6d92417cf/"
+      },
+      {
+        "name": "Node.js, Express, MongoDB & More",
+        "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
+      },
+      {
+        "name": "Formação Front-end - HTML, CSS, JavaScript, React",
+        "url": "https://www.udemy.com/certificate/UC-65f9321e-21dc-455b-b1d7-1b997c593d2c/"
+      },
+      {
+        "name": "iOS & Swift - The Complete iOS App Development Bootcamp",
+        "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
+      },
+      {
+        "name": "English Language Diploma - Pink and Blue",
+        "url": "https://www.linkedin.com/in/ednanrff/details/certifications/1755444372013/single-media-viewer/?type=DOCUMENT&profileId=ACoAABqsxoUBIyPE3dECZFKhjprtqenAAHm7AuU"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "english": "English (C2 level)",
+    "portuguese": "Brazilian Portuguese (native)"
+  }
+}
