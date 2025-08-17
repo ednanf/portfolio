@@ -1,0 +1,22 @@
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.listLinks {
+  display: flex;
+  gap: 5px;
+}
+
+.listLinks a svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}

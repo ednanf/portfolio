@@ -45,57 +45,11 @@ const CurriculumPage = () => {
 
       <section className={styles.container}>
         <h2>{t('techStack.title')}</h2>
-        <ul className={styles.list}>
+        <ul className={sharedStyles.list}>
           {(t('techStack.items', { returnObjects: true }) as string[]).map((item: string) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
-      </section>
-
-      <section className={styles.container}>
-        <h2>{t('projects.title')}</h2>
-        <div className={styles.project}>
-          <h3>{t('projects.gameJournal.title')}</h3>
-          <ul className={styles.list}>
-            {(t('projects.gameJournal.points', { returnObjects: true }) as string[]).map(
-              (point: string) => (
-                <li key={point}>{point}</li>
-              ),
-            )}
-            <li>
-              <div className={styles.listLinks}>
-                <a href="https://github.com/ednanf/game-journal">
-                  {t('projects.githubLink')} <VscLinkExternal />
-                </a>{' '}
-                |{' '}
-                <a href="https://game-journal-ednan.vercel.app">
-                  {t('projects.liveDemoLink')} <VscLinkExternal />
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.project}>
-          <h3>{t('projects.mernTaskManager.title')}</h3>
-          <ul className={styles.list}>
-            {(t('projects.mernTaskManager.points', { returnObjects: true }) as string[]).map(
-              (point: string) => (
-                <li key={point}>{point}</li>
-              ),
-            )}
-            <li>
-              <div className={styles.listLinks}>
-                <a href="https://github.com/ednanf/mern-task-manager">
-                  {t('projects.githubLink')} <VscLinkExternal />{' '}
-                </a>
-                |{' '}
-                <a href="https://mern-task-manager-eight.vercel.app">
-                  {t('projects.liveDemoLink')} <VscLinkExternal />
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
       </section>
 
       <section className={styles.container}>
@@ -113,7 +67,7 @@ const CurriculumPage = () => {
       <section className={styles.container}>
         <div className={styles.certifications}>
           <h2>{t('certifications.title')}</h2>
-          <ul className={styles.list}>
+          <ul className={sharedStyles.list}>
             {(t('certifications.list', { returnObjects: true }) as Certification[]).map(
               (cert: Certification) => (
                 <li key={cert.name}>
