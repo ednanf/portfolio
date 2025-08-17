@@ -2,106 +2,128 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-    font-family: 'Waukegan LDO';
-    src: url('./assets/fonts/Waukegan-LDO.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Waukegan LDO';
+  src: url('./assets/fonts/Waukegan-LDO.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Waukegan LDO';
-    src: url('./assets/fonts/Waukegan-LDO-Oblique.woff2') format('woff2');
-    font-weight: 400;
-    font-style: italic;
+  font-family: 'Waukegan LDO';
+  src: url('./assets/fonts/Waukegan-LDO-Oblique.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-    font-family: 'Waukegan LDO';
-    src: url('./assets/fonts/Waukegan-LDO-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Waukegan LDO';
+  src: url('./assets/fonts/Waukegan-LDO-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
 }
 
 /* Reset styles */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    font-family: Work Sans, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 /* Text defaults */
-h1, h2 {
-    font-family: 'Waukegan LDO', sans-serif;
-    letter-spacing: 3px;
-    color: var(--color-text-primary);
-    text-shadow: 3px 4px 0 var(--color-text-shadow);
+h1,
+h2 {
+  font-family: 'Waukegan LDO', sans-serif;
+  letter-spacing: 3px;
+  color: var(--color-text-primary);
+  text-shadow: 3px 4px 0 var(--color-text-shadow);
+}
+
+h3 {
+  font-family: 'Waukegan LDO', sans-serif;
+  letter-spacing: 2px;
+  color: var(--color-text-primary);
 }
 
 p {
-    font-family: Merriweather Sans, sans-serif;
-    color: var(--color-text-primary);
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--color-text-primary);
+}
+
+a {
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Background texture*/
 body {
-    background-color: var(--color-bg-light);
-    background-image: repeating-linear-gradient(
-            0deg,
-            var(--color-grid-light) 0,
-            var(--color-grid-light) 4px,
-            transparent 1px,
-            transparent 10px
+  background-color: var(--color-bg-light);
+  background-image:
+    repeating-linear-gradient(
+      0deg,
+      var(--color-grid-light) 0,
+      var(--color-grid-light) 4px,
+      transparent 1px,
+      transparent 10px
     ),
     repeating-linear-gradient(
-            90deg,
-            var(--color-grid-light) 0,
-            var(--color-grid-light) 4px,
-            transparent 1px,
-            transparent 10px
+      90deg,
+      var(--color-grid-light) 0,
+      var(--color-grid-light) 4px,
+      transparent 1px,
+      transparent 10px
     );
-    background-size: 10px 10px;
+  background-size: 10px 10px;
 }
 
 :root {
-    --layout-padding: 1rem;
+  --layout-padding: 1rem;
 
-    /* Light theme color palette */
-    --color-bg-light: #c3bfa6;
-    --color-grid-light: #bdbaa1;
-    --color-text-primary-light: #3e3c34;
-    --color-text-shadow-light: #8e8b7f;
-    --color-screen-decoration-primary-light: #413f37;
-    --color-screen-decoration-secondary-light: #9d9986;
-    --color-shadow-light: #6c695d;
+  /* Light theme color palette */
+  --color-bg-light: #c3bfa6;
+  --color-grid-light: #bdbaa1;
+  --color-text-primary-light: #3e3c34;
+  --color-text-shadow-light: #8e8b7f;
+  --color-screen-decoration-primary-light: #413f37;
+  --color-screen-decoration-secondary-light: #9d9986;
+  --color-shadow-light: #6c695d;
 
-    /* Semantic mapping */
-    --color-bg: var(--color-bg-light);
-    --color-grid: var(--color-grid-light);
-    --color-text-primary: var(--color-text-primary-light);
-    --color-text-shadow: var(--color-text-shadow-light);
-    --color-screen-decoration-primary: var(--color-screen-decoration-primary-light);
-    --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-light);
-    --color-shadow: var(--color-shadow-light);
+  /* Semantic mapping */
+  --color-bg: var(--color-bg-light);
+  --color-grid: var(--color-grid-light);
+  --color-text-primary: var(--color-text-primary-light);
+  --color-text-shadow: var(--color-text-shadow-light);
+  --color-screen-decoration-primary: var(--color-screen-decoration-primary-light);
+  --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-light);
+  --color-shadow: var(--color-shadow-light);
 }
 
 [data-theme='dark'] {
-    /* Dark theme color palette */
-    --color-bg-dark: #3e3c34;
-    --color-grid-dark: #413f37;
-    --color-text-primary-dark: #c3bfa6;
-    --color-text-shadow-dark: #9d9986;
-    --color-screen-decoration-primary-dark: #bdbaa1;
-    --color-screen-decoration-secondary-dark: #c3bfa6;
-    --color-shadow-dark: #6c695d;
+  /* Dark theme color palette */
+  --color-bg-dark: #3e3c34;
+  --color-grid-dark: #413f37;
+  --color-text-primary-dark: #c3bfa6;
+  --color-text-shadow-dark: #9d9986;
+  --color-screen-decoration-primary-dark: #bdbaa1;
+  --color-screen-decoration-secondary-dark: #c3bfa6;
+  --color-shadow-dark: #6c695d;
 
-    /* Semantic mapping */
-    --color-bg: var(--color-bg-dark);
-    --color-grid: var(--color-grid-dark);
-    --color-text-primary: var(--color-text-primary-dark);
-    --color-text-shadow: var(--color-text-shadow-dark);
-    --color-screen-decoration-primary: var(--color-screen-decoration-primary-dark);
-    --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
-    --color-shadow: var(--color-shadow-dark);
+  /* Semantic mapping */
+  --color-bg: var(--color-bg-dark);
+  --color-grid: var(--color-grid-dark);
+  --color-text-primary: var(--color-text-primary-dark);
+  --color-text-shadow: var(--color-text-shadow-dark);
+  --color-screen-decoration-primary: var(--color-screen-decoration-primary-dark);
+  --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
+  --color-shadow: var(--color-shadow-dark);
 }
