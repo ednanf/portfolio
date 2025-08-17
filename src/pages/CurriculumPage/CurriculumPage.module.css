@@ -1,8 +1,14 @@
 .container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
   padding: 1rem 0;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .links {
@@ -20,23 +26,12 @@
   transition: color 0.3s ease;
 }
 
-.listLinks {
-  display: flex;
-  gap: 5px;
-}
-
-/* Padding between projects, excluding the last item for distance consistency */
-.project:not(:last-child) {
+.educationItem:not(:last-child) {
   padding-bottom: 1rem;
 }
 
-/* Needed to separate certification sections: certifications and languages */
-.certifications {
-  padding-bottom: 1rem;
-}
-
-.listLinks a svg,
-.certifications .list a svg {
+.link svg,
+.sectionContent ul a svg {
   width: 12px;
   height: 12px;
   flex-shrink: 0;
