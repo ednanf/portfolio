@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import TabNav from '../../TabNav/TabNav.tsx';
+import TabNav from './TabNav/TabNav.tsx';
 import styles from './NavBar.module.css';
 
 const NavBar = () => {

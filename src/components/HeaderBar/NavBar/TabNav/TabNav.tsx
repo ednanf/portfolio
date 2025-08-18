@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
-import ButtonIcon from '../../assets/graphics/ButtonIcon.svg?react';
+import ButtonIcon from '../../../../assets/graphics/ButtonIcon.svg?react';
 import styles from './TabNav.module.css';
 
 type Tab = {
