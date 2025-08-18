@@ -1,3 +1,5 @@
+// Sets the theme according to the user's browser preference
+// Not used for now!
 import { useEffect, useState } from 'react';
 
 function usePrefersColorScheme() {
