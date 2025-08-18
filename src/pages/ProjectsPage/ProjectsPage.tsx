@@ -12,10 +12,10 @@ const ProjectsPage = () => {
         <div className={styles.project}>
           <h2>{t('gameJournal.title')}</h2>
           <ul className={sharedStyles.list}>
-            <li>{t('gameJournal.points.0')}</li>
-            <li>{t('gameJournal.points.1')}</li>
-            <li>{t('gameJournal.points.2')}</li>
-            <li>{t('gameJournal.points.3')}</li>
+            <li>{t('gameJournal.points.point1')}</li>
+            <li>{t('gameJournal.points.point2')}</li>
+            <li>{t('gameJournal.points.point3')}</li>
+            <li>{t('gameJournal.points.point4')}</li>
             <li>
               <div className={styles.listLinks}>
                 <a href="https://github.com/ednanf/game-journal">
@@ -32,10 +32,10 @@ const ProjectsPage = () => {
         <div className={styles.project}>
           <h2>{t('mernTaskManager.title')}</h2>
           <ul className={sharedStyles.list}>
-            <li>{t('mernTaskManager.points.0')}</li>
-            <li>{t('mernTaskManager.points.1')}</li>
-            <li>{t('mernTaskManager.points.2')}</li>
-            <li>{t('mernTaskManager.points.3')}</li>
+            <li>{t('mernTaskManager.points.point1')}</li>
+            <li>{t('mernTaskManager.points.point2')}</li>
+            <li>{t('mernTaskManager.points.point3')}</li>
+            <li>{t('mernTaskManager.points.point4')}</li>
             <li>
               <div className={styles.listLinks}>
                 <a href="https://github.com/ednanf/mern-task-manager">

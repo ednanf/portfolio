@@ -12,13 +12,13 @@
   },
   "techStack": {
     "title": "Tecnologias",
-    "items": [
-      "Linguagens: TypeScript, JavaScript (ES6+)",
-      "Frontend: React, CSS Modules, Design Responsivo, Progressive Web Apps (PWA)",
-      "Backend: Node.js, Express.js, MongoDB (Mongoose), Autenticação JWT, APIs REST, Zod (validação)",
-      "Segurança e Middleware: Helmet, CORS, bcrypt, sanitização de entrada",
-      "Ferramentas: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
-    ]
+    "items": {
+      "item1": "Linguagens: TypeScript, JavaScript (ES6+)",
+      "item2": "Frontend: React, CSS Modules, Design Responsivo, Progressive Web Apps (PWA)",
+      "item3": "Backend: Node.js, Express.js, MongoDB (Mongoose), Autenticação JWT, APIs REST, Zod (validação)",
+      "item4": "Segurança e Middleware: Helmet, CORS, bcrypt, sanitização de entrada",
+      "item5": "Ferramentas: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
+    }
   },
   "education": {
     "title": "Formação",
@@ -34,32 +34,32 @@
   "certifications": {
     "title": "Certificações",
     "viewAll": "Ver todas as certificações no LinkedIn",
-    "list": [
-      {
+    "list": {
+      "cert1": {
         "name": "The Complete JavaScript Course: From Zero to Expert",
         "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
       },
-      {
+      "cert2": {
         "name": "React: The Complete Guide",
         "url": "https://www.udemy.com/certificate/UC-1165a0e7-9da6-4556-bb71-00d6d92417cf/"
       },
-      {
+      "cert3": {
         "name": "Node.js, Express, MongoDB & More",
         "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
       },
-      {
+      "cert4": {
         "name": "Formação Front-end - HTML, CSS, JavaScript, React",
         "url": "https://www.udemy.com/certificate/UC-65f9321e-21dc-455b-b1d7-1b997c593d2c/"
       },
-      {
+      "cert5": {
         "name": "iOS & Swift - The Complete iOS App Development Bootcamp",
         "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
       },
-      {
+      "cert6": {
         "name": "English Language Diploma - PBF",
         "url": "https://www.linkedin.com/in/ednanrff/details/certifications/1755444372013/single-media-viewer/?type=DOCUMENT&profileId=ACoAABqsxoUBIyPE3dECZFKhjprtqenAAHm7AuU"
       }
-    ]
+    }
   },
   "languages": {
     "title": "Idiomas",

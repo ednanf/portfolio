@@ -1,21 +1,21 @@
 {
   "gameJournal": {
     "title": "Game Journal",
-    "points": [
-      "Construí um PWA fullstack, instalável em iOS/Android.",
-      "Implementei autenticação de usuário e persistência de dados com MongoDB.",
-      "Implementei validação de dados com Zod e controle de acesso baseado em schema, garantindo segurança robusta e permissões de usuário.",
-      "Projetei uma UI responsiva com CSS Modules e React Router."
-    ]
+    "points": {
+      "point1": "Construí um PWA fullstack, instalável em iOS/Android.",
+      "point2": "Implementei autenticação de usuário e persistência de dados com MongoDB.",
+      "point3": "Implementei validação de dados com Zod e controle de acesso baseado em schema, garantindo segurança robusta e permissões de usuário.",
+      "point4": "Projetei uma UI responsiva com CSS Modules e React Router."
+    }
   },
   "mernTaskManager": {
     "title": "Gerenciador de Tarefas MERN",
-    "points": [
-      "Construí uma aplicação MERN fullstack para gerenciamento de tarefas.",
-      "Projetei uma API REST com Express e Mongoose com operações CRUD.",
-      "Implementei autenticação de usuário com JWT e rotas seguras.",
-      "Otimizei o frontend com design responsivo e CSS Modules para uma experiência de usuário fluida."
-    ]
+    "points": {
+      "point1": "Construí uma aplicação MERN fullstack para gerenciamento de tarefas.",
+      "point2": "Projetei uma API REST com Express e Mongoose com operações CRUD.",
+      "point3": "Implementei autenticação de usuário com JWT e rotas seguras.",
+      "point4": "Otimizei o frontend com design responsivo e CSS Modules para uma experiência de usuário fluida."
+    }
   },
   "githubLink": "GitHub",
   "liveDemoLink": "Demonstração"

@@ -48,11 +48,11 @@ const CurriculumPage = () => {
         <H2Custom>{t('techStack.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
-            <li>{t('techStack.items.0')}</li>
-            <li>{t('techStack.items.1')}</li>
-            <li>{t('techStack.items.2')}</li>
-            <li>{t('techStack.items.3')}</li>
-            <li>{t('techStack.items.4')}</li>
+            <li>{t('techStack.items.item1')}</li>
+            <li>{t('techStack.items.item2')}</li>
+            <li>{t('techStack.items.item3')}</li>
+            <li>{t('techStack.items.item4')}</li>
+            <li>{t('techStack.items.item5')}</li>
           </ul>
         </div>
       </section>
@@ -76,33 +76,57 @@ const CurriculumPage = () => {
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             <li>
-              <a href={t('certifications.list.0.url')} target="_blank" rel="noopener noreferrer">
-                {t('certifications.list.0.name')} <VscLinkExternal />
+              <a
+                href={t('certifications.list.cert1.url')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('certifications.list.cert1.name')} <VscLinkExternal />
               </a>
             </li>
             <li>
-              <a href={t('certifications.list.1.url')} target="_blank" rel="noopener noreferrer">
-                {t('certifications.list.1.name')} <VscLinkExternal />
+              <a
+                href={t('certifications.list.cert2.url')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('certifications.list.cert2.name')} <VscLinkExternal />
               </a>
             </li>
             <li>
-              <a href={t('certifications.list.2.url')} target="_blank" rel="noopener noreferrer">
-                {t('certifications.list.2.name')} <VscLinkExternal />
+              <a
+                href={t('certifications.list.cert3.url')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('certifications.list.cert3.name')} <VscLinkExternal />
               </a>
             </li>
             <li>
-              <a href={t('certifications.list.3.url')} target="_blank" rel="noopener noreferrer">
-                {t('certifications.list.3.name')} <VscLinkExternal />
+              <a
+                href={t('certifications.list.cert4.url')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('certifications.list.cert4.name')} <VscLinkExternal />
               </a>
             </li>
             <li>
-              <a href={t('certifications.list.4.url')} target="_blank" rel="noopener noreferrer">
-                {t('certifications.list.4.name')} <VscLinkExternal />
+              <a
+                href={t('certifications.list.cert5.url')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('certifications.list.cert5.name')} <VscLinkExternal />
               </a>
             </li>
             <li>
-              <a href={t('certifications.list.5.url')} target="_blank" rel="noopener noreferrer">
-                {t('certifications.list.5.name')} <VscLinkExternal />
+              <a
+                href={t('certifications.list.cert6.url')}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {t('certifications.list.cert6.name')} <VscLinkExternal />
               </a>
             </li>
             <li>
