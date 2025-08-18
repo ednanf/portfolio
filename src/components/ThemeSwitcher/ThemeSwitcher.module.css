@@ -1,0 +1,14 @@
+.button {
+  background-color: transparent;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  padding: 0rem;
+  height: auto;
+}
+
+/* Nudge the icon down for better alignment with text */
+.button svg {
+  vertical-align: middle;
+  position: relative;
+  top: -2px; /* Move icon upward for alignment testing */
+}

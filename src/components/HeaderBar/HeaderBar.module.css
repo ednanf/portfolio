@@ -17,11 +17,22 @@
   font-size: 2rem;
 }
 
+.switchers {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(1rem + 8px); /* Add vertical spacing below the header */
+}
+
 /* Media query for desktop layout */
 @media (min-width: 768px) {
   .topSection {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .switchers {
+    margin-top: 0; /* Remove vertical spacing on desktop for tighter layout */
   }
 }
