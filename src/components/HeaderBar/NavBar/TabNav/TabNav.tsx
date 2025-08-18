@@ -25,7 +25,7 @@ const TabNav = ({ tabs }: TabNavProps) => {
           className={`${styles.tabButton} ${location.pathname === tab.path ? styles.active : ''}`}
         >
           {<ButtonIcon style={iconStyle} height="18px" width="8px" />}
-          {tab.label.toUpperCase()}
+          <span className={styles.tabLabel}>{tab.label.toUpperCase()}</span>
         </Link>
       ))}
     </nav>
