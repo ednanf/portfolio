@@ -1,18 +1,14 @@
 import { Outlet } from 'react-router-dom';
-import HeaderBar from '../HeaderBar/HeaderBar.tsx';
-import styles from './Layout.module.css';
 
 const Layout = () => {
   return (
-    <div className={styles.layout}>
-      {/* Dynamic UI Elements */}
-      <div className="dynamic-line"></div>
-      <div className="dynamic-circle"></div>
-      
-      <HeaderBar />
-      <main className={styles.mainContent}>
+    <div className="app-root">
+      <div className="bg-black-line" aria-hidden="true" />
+      <div className="bg-circle" aria-hidden="true" />
+      <div className="app-content">
+        <h1>TESTE</h1>
         <Outlet />
-      </main>
+      </div>
     </div>
   );
 };
