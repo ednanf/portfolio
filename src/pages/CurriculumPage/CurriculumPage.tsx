@@ -14,26 +14,30 @@ const CurriculumPage = () => {
       <section className={styles.container}>
         <H2Custom>{t('contact.title')}</H2Custom>
         <div className={styles.sectionContent}>
-          <p>{t('contact.name')}</p>
-          <p>{t('contact.email')}</p>
-          <div className={styles.links}>
-            <a
-              href="https://www.linkedin.com/in/ednanrff/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              <FaLinkedin /> {t('contact.linkedin')}
-            </a>
-            <a
-              href="https://github.com/ednanf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.link}
-            >
-              <FaGithubSquare /> {t('contact.github')}
-            </a>
-          </div>
+          <ul className={sharedStyles.list}>
+            <li>{t('contact.name')}</li>
+            <li>{t('contact.email')}</li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ednanrff/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                <FaLinkedin /> {t('contact.linkedin')}
+              </a>{' '}
+              |{' '}
+              <a
+                href="https://github.com/ednanf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+                style={{ marginLeft: 8 }}
+              >
+                <FaGithubSquare /> {t('contact.github')}
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
 
@@ -140,8 +144,10 @@ const CurriculumPage = () => {
       <section className={styles.container}>
         <H2Custom>{t('languages.title')}</H2Custom>
         <div className={styles.sectionContent}>
-          <p>{t('languages.english')}</p>
-          <p>{t('languages.portuguese')}</p>
+          <ul className={sharedStyles.list}>
+            <li>{t('languages.english')}</li>
+            <li>{t('languages.portuguese')}</li>
+          </ul>
         </div>
       </section>
     </div>
