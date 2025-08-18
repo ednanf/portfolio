@@ -1,5 +1,4 @@
 import { useState, useEffect, useCallback } from 'react';
-import usePrefersColorScheme from './usePrefersColorScheme';
 
 type Theme = 'light' | 'dark';
 
@@ -13,8 +12,8 @@ function getStoredTheme(): Theme | null {
 }
 
 export default function useTheme() {
-  const systemPref = usePrefersColorScheme() as Theme;
-  const [theme, setTheme] = useState<Theme>(() => getStoredTheme() || systemPref);
+  // Always default to 'light' unless user has chosen otherwise
+  const [theme, setTheme] = useState<Theme>(() => getStoredTheme() || 'light');
 
   // Sync theme to <html> element and localStorage
   useEffect(() => {
@@ -22,13 +21,6 @@ export default function useTheme() {
     document.documentElement.dataset.theme = theme;
     localStorage.setItem('theme', theme);
   }, [theme]);
-
-  // Listen for system preference changes
-  useEffect(() => {
-    if (!getStoredTheme() && isTheme(systemPref)) {
-      setTheme(systemPref);
-    }
-  }, [systemPref]);
 
   // Listen for localStorage changes (cross-tab)
   useEffect(() => {
