@@ -126,3 +126,82 @@ body {
   --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
   --color-shadow: var(--color-shadow-dark);
 }
+
+/* Dynamic UI Elements - Nier Automata Inspired */
+
+/* Keyframe Animations */
+@keyframes blackLineMovement {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(10px) translateY(-5px);
+  }
+  50% {
+    transform: translateX(-5px) translateY(8px);
+  }
+  75% {
+    transform: translateX(8px) translateY(-3px);
+  }
+  100% {
+    transform: translateX(0) translateY(0);
+  }
+}
+
+@keyframes circleDrift {
+  0% {
+    transform: translateX(0) translateY(0) scale(1);
+    opacity: 0.6;
+  }
+  33% {
+    transform: translateX(15px) translateY(-20px) scale(1.1);
+    opacity: 0.4;
+  }
+  66% {
+    transform: translateX(-10px) translateY(15px) scale(0.9);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateX(0) translateY(0) scale(1);
+    opacity: 0.6;
+  }
+}
+
+/* Black Line Element */
+.dynamic-line {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 33.33vw;
+  height: 2px;
+  background-color: #000;
+  z-index: 1;
+  animation: blackLineMovement 8s ease-in-out infinite;
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+[data-theme='dark'] .dynamic-line {
+  background-color: var(--color-text-primary);
+  opacity: 0.6;
+}
+
+/* Circle Element */
+.dynamic-circle {
+  position: fixed;
+  top: 60%;
+  right: 10%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  z-index: 1;
+  animation: circleDrift 12s ease-in-out infinite;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+[data-theme='dark'] .dynamic-circle {
+  border-color: var(--color-text-primary);
+  opacity: 0.4;
+}
