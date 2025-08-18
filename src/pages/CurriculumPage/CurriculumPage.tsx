@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import H2Custom from '../../components/H2Custom/H2Custom.tsx';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { VscLinkExternal } from 'react-icons/vsc';
 
@@ -16,7 +17,7 @@ const CurriculumPage = () => {
   return (
     <div className={sharedStyles.pageContent}>
       <section className={styles.container}>
-        <h2>{t('contact.title')}</h2>
+        <H2Custom>{t('contact.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <p>{t('contact.name')}</p>
           <p>{t('contact.email')}</p>
@@ -42,14 +43,14 @@ const CurriculumPage = () => {
       </section>
 
       <section className={styles.container}>
-        <h2>{t('profile.title')}</h2>
+        <H2Custom>{t('profile.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <p>{t('profile.body')}</p>
         </div>
       </section>
 
       <section className={styles.container}>
-        <h2>{t('techStack.title')}</h2>
+        <H2Custom>{t('techStack.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             {(t('techStack.items', { returnObjects: true }) as string[]).map((item: string) => (
@@ -60,7 +61,7 @@ const CurriculumPage = () => {
       </section>
 
       <section className={styles.container}>
-        <h2>{t('education.title')}</h2>
+        <H2Custom>{t('education.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <div className={styles.educationItem}>
             <h3>{t('education.postgrad.degree')}</h3>
@@ -74,7 +75,7 @@ const CurriculumPage = () => {
       </section>
 
       <section className={styles.container}>
-        <h2>{t('certifications.title')}</h2>
+        <H2Custom>{t('certifications.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             {(t('certifications.list', { returnObjects: true }) as Certification[]).map(
@@ -95,7 +96,7 @@ const CurriculumPage = () => {
         </div>
       </section>
       <section className={styles.container}>
-        <h2>{t('languages.title')}</h2>
+        <H2Custom>{t('languages.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <p>{t('languages.english')}</p>
           <p>{t('languages.portuguese')}</p>
