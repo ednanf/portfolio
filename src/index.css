@@ -66,19 +66,19 @@ a:hover {
 
 /* Background texture*/
 body {
-  background-color: var(--color-bg-light);
+  background-color: var(--color-bg);
   background-image:
     repeating-linear-gradient(
       0deg,
-      var(--color-grid-light) 0,
-      var(--color-grid-light) 4px,
+      var(--color-grid) 0,
+      var(--color-grid) 4px,
       transparent 1px,
       transparent 10px
     ),
     repeating-linear-gradient(
       90deg,
-      var(--color-grid-light) 0,
-      var(--color-grid-light) 4px,
+      var(--color-grid) 0,
+      var(--color-grid) 4px,
       transparent 1px,
       transparent 10px
     );
@@ -112,7 +112,7 @@ body {
   --color-bg-dark: #3e3c34;
   --color-grid-dark: #413f37;
   --color-text-primary-dark: #c3bfa6;
-  --color-text-shadow-dark: #9d9986;
+  --color-text-shadow-dark: #9d998622;
   --color-screen-decoration-primary-dark: #bdbaa1;
   --color-screen-decoration-secondary-dark: #c3bfa6;
   --color-shadow-dark: #6c695d;

@@ -5,11 +5,11 @@
     <title>Untitled</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="currentColor"
        fill-rule="evenodd">
-        <rect id="Rectangle" fill="#3E3C34" x="0" y="0" width="30"
+        <rect id="Rectangle" x="0" y="0" width="30"
               height="30"></rect>
-        <rect id="Rectangle" fill="#3E3C34" x="30" y="30" width="30"
+        <rect id="Rectangle" x="30" y="30" width="30"
               height="30"></rect>
-        <rect id="Rectangle" fill="#3E3C34" x="0" y="60" width="30"
+        <rect id="Rectangle" x="0" y="60" width="30"
               height="30"></rect>
     </g>
 </svg>
