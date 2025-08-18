@@ -1,29 +1,19 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import enCommon from './locales/en/common.json';
-import enCurriculumPage from './locales/en/curriculumPage.json';
-import ptCommon from './locales/pt/common.json';
-import ptCurriculumPage from './locales/pt/curriculumPage.json';
-
-const resources = {
-  en: {
-    common: enCommon,
-    curriculumPage: enCurriculumPage,
-  },
-  pt: {
-    common: ptCommon,
-    curriculumPage: ptCurriculumPage,
-  },
-};
+import resourcesToBackend from 'i18next-resources-to-backend';
 
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
+  .use(
+    resourcesToBackend((language: string, namespace: string) => {
+      return import(`./locales/${language}/${namespace}.json`);
+    }),
+  )
   .init({
-    resources,
     fallbackLng: 'en',
-    ns: ['common', 'curriculumPage'], // Namespace
+    ns: ['common', 'curriculumPage', 'projectsPage'], // Namespace
     defaultNS: 'common',
     interpolation: {
       escapeValue: false, // React already does this

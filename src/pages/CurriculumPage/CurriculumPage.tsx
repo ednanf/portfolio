@@ -6,11 +6,6 @@ import { VscLinkExternal } from 'react-icons/vsc';
 import styles from './CurriculumPage.module.css';
 import sharedStyles from '../shared.module.css';
 
-interface Certification {
-  name: string;
-  url: string;
-}
-
 const CurriculumPage = () => {
   const { t } = useTranslation('curriculumPage');
 
@@ -53,9 +48,11 @@ const CurriculumPage = () => {
         <H2Custom>{t('techStack.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
-            {(t('techStack.items', { returnObjects: true }) as string[]).map((item: string) => (
-              <li key={item}>{item}</li>
-            ))}
+            <li>{t('techStack.items.0')}</li>
+            <li>{t('techStack.items.1')}</li>
+            <li>{t('techStack.items.2')}</li>
+            <li>{t('techStack.items.3')}</li>
+            <li>{t('techStack.items.4')}</li>
           </ul>
         </div>
       </section>
@@ -78,15 +75,36 @@ const CurriculumPage = () => {
         <H2Custom>{t('certifications.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
-            {(t('certifications.list', { returnObjects: true }) as Certification[]).map(
-              (cert: Certification) => (
-                <li key={cert.name}>
-                  <a href={cert.url} target="_blank" rel="noopener noreferrer">
-                    {cert.name} <VscLinkExternal />
-                  </a>
-                </li>
-              ),
-            )}
+            <li>
+              <a href={t('certifications.list.0.url')} target="_blank" rel="noopener noreferrer">
+                {t('certifications.list.0.name')} <VscLinkExternal />
+              </a>
+            </li>
+            <li>
+              <a href={t('certifications.list.1.url')} target="_blank" rel="noopener noreferrer">
+                {t('certifications.list.1.name')} <VscLinkExternal />
+              </a>
+            </li>
+            <li>
+              <a href={t('certifications.list.2.url')} target="_blank" rel="noopener noreferrer">
+                {t('certifications.list.2.name')} <VscLinkExternal />
+              </a>
+            </li>
+            <li>
+              <a href={t('certifications.list.3.url')} target="_blank" rel="noopener noreferrer">
+                {t('certifications.list.3.name')} <VscLinkExternal />
+              </a>
+            </li>
+            <li>
+              <a href={t('certifications.list.4.url')} target="_blank" rel="noopener noreferrer">
+                {t('certifications.list.4.name')} <VscLinkExternal />
+              </a>
+            </li>
+            <li>
+              <a href={t('certifications.list.5.url')} target="_blank" rel="noopener noreferrer">
+                {t('certifications.list.5.name')} <VscLinkExternal />
+              </a>
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/ednanrff/details/certifications/">
                 {t('certifications.viewAll')} <VscLinkExternal />

@@ -20,29 +20,6 @@
       "Ferramentas: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
     ]
   },
-  "projects": {
-    "title": "Projetos",
-    "gameJournal": {
-      "title": "Game Journal",
-      "points": [
-        "Construí um PWA fullstack, instalável em iOS/Android.",
-        "Implementei autenticação de usuário e persistência de dados com MongoDB.",
-        "Implementei validação de dados com Zod e controle de acesso baseado em schema, garantindo segurança robusta e permissões de usuário.",
-        "Projetei uma UI responsiva com CSS Modules e React Router."
-      ]
-    },
-    "mernTaskManager": {
-      "title": "Gerenciador de Tarefas MERN",
-      "points": [
-        "Construí uma aplicação MERN fullstack para gerenciamento de tarefas.",
-        "Projetei uma API REST com Express e Mongoose com operações CRUD.",
-        "Implementei autenticação de usuário com JWT e rotas seguras.",
-        "Otimizei o frontend com design responsivo e CSS Modules para uma experiência de usuário fluida."
-      ]
-    },
-    "githubLink": "GitHub",
-    "liveDemoLink": "Demonstração"
-  },
   "education": {
     "title": "Formação",
     "postgrad": {

@@ -1,0 +1,22 @@
+{
+  "gameJournal": {
+    "title": "Game Journal",
+    "points": [
+      "Built a fullstack PWA, installable on iOS/Android.",
+      "Implemented user authentication and data persistence with MongoDB.",
+      "Implemented data validation with Zod and schema-based access control, ensuring robust security and user permissions.",
+      "Designed a responsive UI with CSS Modules and React Router."
+    ]
+  },
+  "mernTaskManager": {
+    "title": "MERN Task Manager",
+    "points": [
+      "Built a fullstack MERN application for task management.",
+      "Designed REST API with Express and Mongoose with CRUD operations.",
+      "Implemented user authentication with JWT and secured routes.",
+      "Optimized frontend with responsive design and CSS Modules for a seamless user experience."
+    ]
+  },
+  "githubLink": "GitHub",
+  "liveDemoLink": "Live Demo"
+}
