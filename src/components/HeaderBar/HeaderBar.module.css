@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: var(--layout-padding);
+  margin-top: 1rem;
 }
 
 /* Define the container for the title and switcher */
@@ -22,7 +23,10 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  margin-top: calc(1rem + 8px); /* Add vertical spacing below the header */
+}
+
+.desktopAnimatedLines {
+  display: none;
 }
 
 /* Media query for desktop layout */
@@ -31,6 +35,12 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+  .topSection > :nth-child(2) {
+    display: none;
+  }
+  .desktopAnimatedLines {
+    display: block;
   }
   .switchers {
     margin-top: 0; /* Remove vertical spacing on desktop for tighter layout */

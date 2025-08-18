@@ -1,6 +1,7 @@
 import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher.tsx';
 import ThemeSwitcher from '../ThemeSwitcher/ThemeSwitcher.tsx';
 import NavBar from './NavBar/NavBar.tsx';
+import AnimatedLines from '../AnimatedLines/AnimatedLines';
 import styles from './HeaderBar.module.css';
 
 type HeaderBarProps = {
@@ -12,11 +13,17 @@ const HeaderBar = ({ theme, toggleTheme }: HeaderBarProps) => {
   return (
     <div className={styles.headerBarBody}>
       <div className={styles.topSection}>
-        <h2 className={styles.headerTitle}>EDNAN::PORTFOLIO</h2>
+        <div className={styles.title}>
+          <h1>EDNAN::PORTFOLIO</h1>
+        </div>
+        <AnimatedLines />
         <div className={styles.switchers}>
           <ThemeSwitcher onClick={toggleTheme} theme={theme} />
           <LanguageSwitcher />
         </div>
+      </div>
+      <div className={styles.desktopAnimatedLines}>
+        <AnimatedLines />
       </div>
       <div>
         <NavBar />
@@ -24,4 +31,5 @@ const HeaderBar = ({ theme, toggleTheme }: HeaderBarProps) => {
     </div>
   );
 };
+
 export default HeaderBar;

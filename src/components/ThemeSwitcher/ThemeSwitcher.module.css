@@ -6,9 +6,8 @@
   height: auto;
 }
 
-/* Nudge the icon down for better alignment with text */
 .button svg {
   vertical-align: middle;
   position: relative;
-  top: -2px; /* Move icon upward for alignment testing */
+  top: -3px; /* Move icon upward for alignment */
 }
