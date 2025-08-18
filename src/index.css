@@ -2,206 +2,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
-  font-family: 'Waukegan LDO';
-  src: url('./assets/fonts/Waukegan-LDO.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'Waukegan LDO';
+    src: url('./assets/fonts/Waukegan-LDO.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
 }
 
 @font-face {
-  font-family: 'Waukegan LDO';
-  src: url('./assets/fonts/Waukegan-LDO-Oblique.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
+    font-family: 'Waukegan LDO';
+    src: url('./assets/fonts/Waukegan-LDO-Oblique.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
 }
 
 @font-face {
-  font-family: 'Waukegan LDO';
-  src: url('./assets/fonts/Waukegan-LDO-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'Waukegan LDO';
+    src: url('./assets/fonts/Waukegan-LDO-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* Reset styles */
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Work Sans, sans-serif;
 }
 
-/* Text defaults */
-h1,
-h2 {
-  font-family: 'Waukegan LDO', sans-serif;
-  letter-spacing: 3px;
-  color: var(--color-text-primary);
-  text-shadow: 3px 4px 0 var(--color-text-shadow);
-}
-
-h3 {
-  font-family: 'Waukegan LDO', sans-serif;
-  letter-spacing: 2px;
-  color: var(--color-text-primary);
-}
-
-p {
-  font-family: 'Merriweather Sans', sans-serif;
-  color: var(--color-text-primary);
-}
-
-a {
-  font-family: 'Merriweather Sans', sans-serif;
-  color: var(--color-text-primary);
-  text-decoration: none;
-  transition: color 0.3s ease;
-  align-items: center;
-  gap: 5px;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Background texture*/
-body {
-  background-color: var(--color-bg-light);
-  background-image:
-    repeating-linear-gradient(
-      0deg,
-      var(--color-grid-light) 0,
-      var(--color-grid-light) 4px,
-      transparent 1px,
-      transparent 10px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      var(--color-grid-light) 0,
-      var(--color-grid-light) 4px,
-      transparent 1px,
-      transparent 10px
-    );
-  background-size: 10px 10px;
+h1, h2 {
+    font-family: 'Waukegan LDO', sans-serif;
+    letter-spacing: 3px;
 }
 
 :root {
-  --layout-padding: 1rem;
+    /* Light theme color palette */
+    --color-bg-light: #c3bfa6;
+    --color-grid-light: #bdbaa1;
+    --color-text-primary-light: #3e3c34;
+    --color-text-shadow-light: #8e8b7f;
+    --color-screen-decoration-primary-light: #413f37;
+    --color-screen-decoration-secondary-light: #9d9986;
+    --color-shadow-light: #6c695d;
 
-  /* Light theme color palette */
-  --color-bg-light: #c3bfa6;
-  --color-grid-light: #bdbaa1;
-  --color-text-primary-light: #3e3c34;
-  --color-text-shadow-light: #8e8b7f;
-  --color-screen-decoration-primary-light: #413f37;
-  --color-screen-decoration-secondary-light: #9d9986;
-  --color-shadow-light: #6c695d;
-
-  /* Semantic mapping */
-  --color-bg: var(--color-bg-light);
-  --color-grid: var(--color-grid-light);
-  --color-text-primary: var(--color-text-primary-light);
-  --color-text-shadow: var(--color-text-shadow-light);
-  --color-screen-decoration-primary: var(--color-screen-decoration-primary-light);
-  --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-light);
-  --color-shadow: var(--color-shadow-light);
+    /* Semantic mapping */
+    --color-bg: var(--color-bg-light);
+    --color-grid: var(--color-grid-light);
+    --color-text-primary: var(--color-text-primary-light);
+    --color-text-shadow: var(--color-text-shadow-light);
+    --color-screen-decoration-primary: var(--color-screen-decoration-primary-light);
+    --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-light);
+    --color-shadow: var(--color-shadow-light);
 }
 
 [data-theme='dark'] {
-  /* Dark theme color palette */
-  --color-bg-dark: #3e3c34;
-  --color-grid-dark: #413f37;
-  --color-text-primary-dark: #c3bfa6;
-  --color-text-shadow-dark: #9d9986;
-  --color-screen-decoration-primary-dark: #bdbaa1;
-  --color-screen-decoration-secondary-dark: #c3bfa6;
-  --color-shadow-dark: #6c695d;
+    /* Dark theme color palette */
+    --color-bg-dark: #3e3c34;
+    --color-grid-dark: #413f37;
+    --color-text-primary-dark: #c3bfa6;
+    --color-text-shadow-dark: #9d9986;
+    --color-screen-decoration-primary-dark: #bdbaa1;
+    --color-screen-decoration-secondary-dark: #c3bfa6;
+    --color-shadow-dark: #6c695d;
 
-  /* Semantic mapping */
-  --color-bg: var(--color-bg-dark);
-  --color-grid: var(--color-grid-dark);
-  --color-text-primary: var(--color-text-primary-dark);
-  --color-text-shadow: var(--color-text-shadow-dark);
-  --color-screen-decoration-primary: var(--color-screen-decoration-primary-dark);
-  --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
-  --color-shadow: var(--color-shadow-dark);
+    /* Semantic mapping */
+    --color-bg: var(--color-bg-dark);
+    --color-grid: var(--color-grid-dark);
+    --color-text-primary: var(--color-text-primary-dark);
+    --color-text-shadow: var(--color-text-shadow-dark);
+    --color-screen-decoration-primary: var(--color-screen-decoration-primary-dark);
+    --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
+    --color-shadow: var(--color-shadow-dark);
 }
 
-/* Dynamic UI Elements - Nier Automata Inspired */
+/* Subtle background overlays (placed between page background and content)
+   - Very low contrast so they don't compete with existing shadows in the design.
+   - Positioned below content but above the page background.
+   - Respect prefers-reduced-motion. */
 
-/* Keyframe Animations */
-@keyframes blackLineMovement {
-  0% {
-    transform: translateX(0) translateY(0);
-  }
-  25% {
-    transform: translateX(10px) translateY(-5px);
-  }
-  50% {
-    transform: translateX(-5px) translateY(8px);
-  }
-  75% {
-    transform: translateX(8px) translateY(-3px);
-  }
-  100% {
-    transform: translateX(0) translateY(0);
-  }
+.app-root {
+    position: relative;
+    z-index: 1; /* content sits above the overlays */
+    min-height: 100vh;
+}
+
+.bg-black-line,
+.bg-circle {
+    pointer-events: none;
+    position: fixed;
+    mix-blend-mode: normal;
+    z-index: 0; /* sits below .app-root but above body background */
+}
+
+/* Very subtle low-contrast horizontal line */
+.bg-black-line {
+    left: 50%;
+    top: 28%;
+    width: 28vw;
+    max-width: 36rem;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.06); /* subtler than --color-shadow usage */
+    transform: translateX(-50%);
+    border-radius: 1px;
+    filter: blur(0.6px);
+    opacity: 0.92;
+    animation: linePulse 18s ease-in-out infinite;
+    will-change: transform, opacity;
+}
+
+/* Small drifting circle with very light gradient */
+.bg-circle {
+    width: 140px;
+    height: 140px;
+    max-width: 14vw;
+    max-height: 14vw;
+    left: 78%;
+    top: 16%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle at 35% 35%, rgba(0,0,0,0.055), rgba(0,0,0,0.02));
+    border-radius: 50%;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.02); /* much subtler than existing shadows */
+    opacity: 0.95;
+    animation: circleDrift 28s ease-in-out infinite alternate;
+    will-change: transform, opacity;
+}
+
+@keyframes linePulse {
+    0%   { transform: translateX(-50%) translateY(0); opacity: 0.92; }
+    50%  { transform: translateX(-50%) translateY(0.8px); opacity: 0.86; }
+    100% { transform: translateX(-50%) translateY(0); opacity: 0.92; }
 }
 
 @keyframes circleDrift {
-  0% {
-    transform: translateX(0) translateY(0) scale(1);
-    opacity: 0.6;
-  }
-  33% {
-    transform: translateX(15px) translateY(-20px) scale(1.1);
-    opacity: 0.4;
-  }
-  66% {
-    transform: translateX(-10px) translateY(15px) scale(0.9);
-    opacity: 0.7;
-  }
-  100% {
-    transform: translateX(0) translateY(0) scale(1);
-    opacity: 0.6;
-  }
+    0%   { transform: translate(-50%, -50%) translateY(0) translateX(0); }
+    50%  { transform: translate(-50%, -50%) translateY(6px) translateX(-6px); }
+    100% { transform: translate(-50%, -50%) translateY(0) translateX(0); }
 }
 
-/* Black Line Element */
-.dynamic-line {
-  position: fixed;
-  top: 20%;
-  left: 0;
-  width: 33.33vw;
-  height: 2px;
-  background-color: #000;
-  z-index: 1;
-  animation: blackLineMovement 8s ease-in-out infinite;
-  pointer-events: none;
-  opacity: 0.8;
-}
-
-[data-theme='dark'] .dynamic-line {
-  background-color: var(--color-text-primary);
-  opacity: 0.6;
-}
-
-/* Circle Element */
-.dynamic-circle {
-  position: fixed;
-  top: 60%;
-  right: 10%;
-  width: 40px;
-  height: 40px;
-  border: 2px solid #000;
-  border-radius: 50%;
-  z-index: 1;
-  animation: circleDrift 12s ease-in-out infinite;
-  pointer-events: none;
-  opacity: 0.6;
-}
-
-[data-theme='dark'] .dynamic-circle {
-  border-color: var(--color-text-primary);
-  opacity: 0.4;
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .bg-black-line,
+    .bg-circle {
+        animation: none;
+        transition: none;
+    }
 }
