@@ -126,3 +126,61 @@ body {
   --color-screen-decoration-secondary: var(--color-screen-decoration-secondary-dark);
   --color-shadow: var(--color-shadow-dark);
 }
+
+/* Nier Automata-inspired UI elements */
+@keyframes lineSlide {
+  0% {
+    transform: translateX(-100vw);
+  }
+  50% {
+    transform: translateX(calc(33.33vw - 50%));
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes circleDrift {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(20px, -15px);
+  }
+  50% {
+    transform: translate(-15px, 10px);
+  }
+  75% {
+    transform: translate(10px, 25px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.nier-ui-line {
+  position: fixed;
+  top: 20%;
+  left: 0;
+  width: 33.33vw;
+  height: 2px;
+  background-color: var(--color-screen-decoration-primary);
+  opacity: 0.4;
+  z-index: 1;
+  animation: lineSlide 15s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.nier-ui-circle {
+  position: fixed;
+  top: 70%;
+  right: 10%;
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--color-screen-decoration-primary);
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: 1;
+  animation: circleDrift 20s ease-in-out infinite;
+  pointer-events: none;
+}
