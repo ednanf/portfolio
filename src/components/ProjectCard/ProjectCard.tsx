@@ -7,6 +7,7 @@ import H2Custom from '../H2Custom/H2Custom';
 export interface ProjectCardProps {
   // keys are resolved inside the given namespace (default 'projectsPage')
   titleKey?: string;
+  titleKeyFontSize?: number; // Needed for longer titles, especially in Portuguese
   pointsKeys?: string[];
   githubUrl?: string;
   demoUrl?: string;
@@ -18,6 +19,7 @@ export interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
   titleKey,
+  titleKeyFontSize,
   pointsKeys = [],
   githubUrl,
   demoUrl,
@@ -32,7 +34,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div className={styles.projectCard}>
-      <H2Custom iconSize={24}>{resolvedTitle}</H2Custom>
+      <H2Custom iconSize={24} fontSize={titleKeyFontSize}>
+        {resolvedTitle}
+      </H2Custom>
       <ul className={styles.list}>
         {resolvedPoints.map((p, i) => (
           <li key={i}>{p}</li>
