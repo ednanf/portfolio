@@ -27,7 +27,7 @@
 
 @media (min-width: 900px) {
   .pageContent {
-    max-width: 900px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2rem;

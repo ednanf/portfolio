@@ -18,7 +18,7 @@
     }
   },
   "weatherTailWind": {
-    "title": "Weather Tailwind",
+    "title": "Tailwind",
     "points": {
       "point1": "Built a weather application using React and Tailwind CSS.",
       "point2": "Integrated with OpenWeather API for real-time weather data.",

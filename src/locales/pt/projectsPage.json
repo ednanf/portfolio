@@ -1,6 +1,6 @@
 {
   "gameJournal": {
-    "title": "Game Journal",
+    "title": "Diário de Jogos",
     "points": {
       "point1": "Construí um PWA fullstack, instalável em iOS/Android.",
       "point2": "Implementei autenticação de usuário e persistência de dados com MongoDB.",
@@ -18,7 +18,7 @@
     }
   },
   "weatherTailWind": {
-    "title": "Weather Tailwind",
+    "title": "Tailwind",
     "points": {
       "point1": "Construí uma aplicação de previsão do tempo usando React e Tailwind CSS.",
       "point2": "Integrei com a API OpenWeather para dados climáticos em tempo real.",
