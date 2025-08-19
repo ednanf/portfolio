@@ -32,7 +32,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div className={styles.projectCard}>
-      <H2Custom iconSize={20}>{resolvedTitle}</H2Custom>
+      <H2Custom iconSize={24}>{resolvedTitle}</H2Custom>
       <ul className={styles.list}>
         {resolvedPoints.map((p, i) => (
           <li key={i}>{p}</li>

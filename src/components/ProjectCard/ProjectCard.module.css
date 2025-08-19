@@ -1,7 +1,6 @@
 .projectCard {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid var(--color-text-primary);
-  border-left: 50px solid var(--color-text-primary);
   box-shadow: 3px 3px 0 var(--color-text-primary);
   padding: 1rem;
   transition:
