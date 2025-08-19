@@ -20,3 +20,12 @@
   height: 12px;
   flex-shrink: 0;
 }
+
+@media (min-width: 900px) {
+  .projectList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+  }
+}

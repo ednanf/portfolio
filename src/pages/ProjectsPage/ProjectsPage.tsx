@@ -4,6 +4,8 @@ import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import styles from './ProjectsPage.module.css';
 import sharedStyles from '../shared.module.css';
 
+// TODO: Implement grid structure instead of flex on higher resolutions to make it look better
+
 const ProjectsPage: React.FC = () => {
   const { i18n } = useTranslation();
   const isPt = Boolean(i18n?.language && i18n.language.startsWith('pt'));
