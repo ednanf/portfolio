@@ -5,68 +5,75 @@ import styles from './ProjectsPage.module.css';
 import sharedStyles from '../shared.module.css';
 
 const ProjectsPage: React.FC = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation('projectsPage');
   const isPt = Boolean(i18n?.language && i18n.language.startsWith('pt'));
+
+  // Explicit keys to make it easier to read
+  const gameJournalPoints = [
+    t('gameJournal.points.point1'),
+    t('gameJournal.points.point2'),
+    t('gameJournal.points.point3'),
+    t('gameJournal.points.point4'),
+  ];
+  const mernTaskManagerPoints = [
+    t('mernTaskManager.points.point1'),
+    t('mernTaskManager.points.point2'),
+    t('mernTaskManager.points.point3'),
+    t('mernTaskManager.points.point4'),
+  ];
+  const weatherTailWindPoints = [
+    t('weatherTailWind.points.point1'),
+    t('weatherTailWind.points.point2'),
+    t('weatherTailWind.points.point3'),
+  ];
+  const boxShadowGeneratorPoints = [
+    t('boxShadowGenerator.points.point1'),
+    t('boxShadowGenerator.points.point2'),
+    t('boxShadowGenerator.points.point3'),
+  ];
+  const stickiesPoints = [
+    t('stickies.points.point1'),
+    t('stickies.points.point2'),
+    t('stickies.points.point3'),
+    t('stickies.points.point4'),
+  ];
 
   return (
     <div className={sharedStyles.pageContent}>
       <div className={styles.projectList}>
         <ProjectCard
-          titleKey="gameJournal.title"
-          pointsKeys={[
-            'gameJournal.points.point1',
-            'gameJournal.points.point2',
-            'gameJournal.points.point3',
-            'gameJournal.points.point4',
-          ]}
+          title={t('gameJournal.title')}
+          points={gameJournalPoints}
           githubUrl="https://github.com/ednanf/game-journal"
           demoUrl="https://game-journal-ednan.vercel.app"
         />
 
         <ProjectCard
-          titleKey="mernTaskManager.title"
+          title={t('mernTaskManager.title')}
           // Resize in portuguese due to length
           {...(isPt ? { titleKeyFontSize: 20 } : {})}
-          pointsKeys={[
-            'mernTaskManager.points.point1',
-            'mernTaskManager.points.point2',
-            'mernTaskManager.points.point3',
-            'mernTaskManager.points.point4',
-          ]}
+          points={mernTaskManagerPoints}
           githubUrl="https://github.com/ednanf/mern-task-manager"
           demoUrl="https://mern-task-manager-eight.vercel.app"
         />
 
         <ProjectCard
-          titleKey="weatherTailWind.title"
-          pointsKeys={[
-            'weatherTailWind.points.point1',
-            'weatherTailWind.points.point2',
-            'weatherTailWind.points.point3',
-          ]}
+          title={t('weatherTailWind.title')}
+          points={weatherTailWindPoints}
           githubUrl="https://github.com/ednanf/weather-tailwind"
           demoUrl="https://ednanf-tailwind.vercel.app/"
         />
 
         <ProjectCard
-          titleKey="boxShadowGenerator.title"
-          pointsKeys={[
-            'boxShadowGenerator.points.point1',
-            'boxShadowGenerator.points.point2',
-            'boxShadowGenerator.points.point3',
-          ]}
+          title={t('boxShadowGenerator.title')}
+          points={boxShadowGeneratorPoints}
           githubUrl="https://github.com/ednanf/box-shadow-generator"
           demoUrl="https://ednanf.github.io/box-shadow-generator/"
         />
 
         <ProjectCard
-          titleKey="stickies.title"
-          pointsKeys={[
-            'stickies.points.point1',
-            'stickies.points.point2',
-            'stickies.points.point3',
-            'stickies.points.point4',
-          ]}
+          title={t('stickies.title')}
+          points={stickiesPoints}
           githubUrl="https://github.com/ednanf/stickies"
           demoUrl="https://ednanf.github.io/stickies/"
         />
