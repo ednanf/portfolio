@@ -30,8 +30,31 @@
     color 0.2s;
 }
 
-.tabButton a {
+.tabButton {
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Ensure no underline on any interaction state (mobile/visited/active/focus) */
+.tabButton:active,
+.tabButton:focus,
+.tabButton:visited {
+  text-decoration: none;
+}
+
+/* Safari on iOS sometimes renders a decoration on child text even when the parent
+   has text-decoration:none. Target the label and svg explicitly and include
+   Safari-prefixed properties to be safe. */
+.tabButton .tabLabel,
+.tabButton svg {
+  text-decoration: none !important;
+  -webkit-text-decoration-color: transparent !important;
+  text-decoration-color: transparent !important;
+  text-decoration-thickness: 0 !important;
+  text-underline-offset: 0 !important;
 }
 
 /* Divider */
