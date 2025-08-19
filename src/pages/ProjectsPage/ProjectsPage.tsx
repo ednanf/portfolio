@@ -1,56 +1,39 @@
-import { useTranslation } from 'react-i18next';
-import { VscLinkExternal } from 'react-icons/vsc';
+// ...existing code...
+import React from 'react';
+import ProjectCard from '../../components/ProjectCard/ProjectCard';
 import styles from './ProjectsPage.module.css';
 import sharedStyles from '../shared.module.css';
 
-const ProjectsPage = () => {
-  const { t } = useTranslation('projectsPage');
-
+const ProjectsPage: React.FC = () => {
   return (
     <div className={sharedStyles.pageContent}>
       <div className={styles.projectList}>
-        <div className={styles.project}>
-          <h2>{t('gameJournal.title')}</h2>
-          <ul className={sharedStyles.list}>
-            <li>{t('gameJournal.points.point1')}</li>
-            <li>{t('gameJournal.points.point2')}</li>
-            <li>{t('gameJournal.points.point3')}</li>
-            <li>{t('gameJournal.points.point4')}</li>
-            <li>
-              <div className={styles.listLinks}>
-                <a href="https://github.com/ednanf/game-journal">
-                  {t('githubLink')} <VscLinkExternal />
-                </a>{' '}
-                |{' '}
-                <a href="https://game-journal-ednan.vercel.app">
-                  {t('liveDemoLink')} <VscLinkExternal />
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div className={styles.project}>
-          <h2>{t('mernTaskManager.title')}</h2>
-          <ul className={sharedStyles.list}>
-            <li>{t('mernTaskManager.points.point1')}</li>
-            <li>{t('mernTaskManager.points.point2')}</li>
-            <li>{t('mernTaskManager.points.point3')}</li>
-            <li>{t('mernTaskManager.points.point4')}</li>
-            <li>
-              <div className={styles.listLinks}>
-                <a href="https://github.com/ednanf/mern-task-manager">
-                  {t('githubLink')} <VscLinkExternal />{' '}
-                </a>
-                |{' '}
-                <a href="https://mern-task-manager-eight.vercel.app">
-                  {t('liveDemoLink')} <VscLinkExternal />
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <ProjectCard
+          titleKey="gameJournal.title"
+          pointsKeys={[
+            'gameJournal.points.point1',
+            'gameJournal.points.point2',
+            'gameJournal.points.point3',
+            'gameJournal.points.point4',
+          ]}
+          githubUrl="https://github.com/ednanf/game-journal"
+          demoUrl="https://game-journal-ednan.vercel.app"
+        />
+
+        <ProjectCard
+          titleKey="mernTaskManager.title"
+          pointsKeys={[
+            'mernTaskManager.points.point1',
+            'mernTaskManager.points.point2',
+            'mernTaskManager.points.point3',
+            'mernTaskManager.points.point4',
+          ]}
+          githubUrl="https://github.com/ednanf/mern-task-manager"
+          demoUrl="https://mern-task-manager-eight.vercel.app"
+        />
       </div>
     </div>
   );
 };
+
 export default ProjectsPage;

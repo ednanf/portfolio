@@ -12,7 +12,7 @@ const CurriculumPage = () => {
   return (
     <div className={sharedStyles.pageContent}>
       <section className={styles.container}>
-        <H2Custom>{t('contact.title')}</H2Custom>
+        <H2Custom iconSize={20}>{t('contact.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             <li>{t('contact.name')}</li>
@@ -42,14 +42,14 @@ const CurriculumPage = () => {
       </section>
 
       <section className={styles.container}>
-        <H2Custom>{t('profile.title')}</H2Custom>
+        <H2Custom iconSize={20}>{t('profile.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <p>{t('profile.body')}</p>
         </div>
       </section>
 
       <section className={styles.container}>
-        <H2Custom>{t('techStack.title')}</H2Custom>
+        <H2Custom iconSize={20}>{t('techStack.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             <li>{t('techStack.items.item1')}</li>
@@ -62,7 +62,7 @@ const CurriculumPage = () => {
       </section>
 
       <section className={styles.container}>
-        <H2Custom>{t('education.title')}</H2Custom>
+        <H2Custom iconSize={20}>{t('education.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <div className={styles.educationItem}>
             <h3>{t('education.postgrad.degree')}</h3>
@@ -76,7 +76,7 @@ const CurriculumPage = () => {
       </section>
 
       <section className={styles.container}>
-        <H2Custom>{t('certifications.title')}</H2Custom>
+        <H2Custom iconSize={20}>{t('certifications.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             <li>
@@ -142,7 +142,7 @@ const CurriculumPage = () => {
         </div>
       </section>
       <section className={styles.container}>
-        <H2Custom>{t('languages.title')}</H2Custom>
+        <H2Custom iconSize={20}>{t('languages.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             <li>{t('languages.english')}</li>
