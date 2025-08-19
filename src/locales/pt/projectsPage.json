@@ -17,6 +17,31 @@
       "point4": "Otimizei o frontend com design responsivo e CSS Modules para uma experiência de usuário fluida."
     }
   },
+  "weatherTailWind": {
+    "title": "Weather Tailwind",
+    "points": {
+      "point1": "Construí uma aplicação de previsão do tempo usando React e Tailwind CSS.",
+      "point2": "Integrei com a API OpenWeather para dados climáticos em tempo real.",
+      "point3": "Implementei a API GeoDB para busca de localização."
+    }
+  },
+  "boxShadowGenerator": {
+    "title": "Gerador de box-shadow",
+    "points": {
+      "point1": "Construí uma ferramenta de geração de box-shadow usando JavaScript puro.",
+      "point2": "Implementei visualização em tempo real dos box-shadows.",
+      "point3": "Adicionei opções personalizáveis para as propriedades do box-shadow."
+    }
+  },
+  "stickies": {
+    "title": "Stickies",
+    "points": {
+      "point1": "Construí uma aplicação de post-its usando JavaScript puro.",
+      "point2": "Implementei a funcionalidade de busca para notas.",
+      "point3": "Integrei o armazenamento local para armazenamento persistente de notas.",
+      "point4": "Adicionei a funcionalidade de exportação para CSV."
+    }
+  },
   "githubLink": "GitHub",
   "liveDemoLink": "Demonstração"
 }
