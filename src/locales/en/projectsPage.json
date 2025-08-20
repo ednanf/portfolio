@@ -2,44 +2,44 @@
   "gameJournal": {
     "title": "Game Journal",
     "points": {
-      "point1": "Built a fullstack PWA, installable on iOS/Android.",
-      "point2": "Implemented user authentication and data persistence with MongoDB.",
-      "point3": "Implemented data validation with Zod and schema-based access control, ensuring robust security and user permissions.",
-      "point4": "Designed a responsive UI with CSS Modules and React Router."
+      "point1": "Engineered a fullstack PWA, installable on iOS/Android for a native-like experience.",
+      "point2": "Integrated secure user authentication and data persistence using MongoDB.",
+      "point3": "Implemented robust data validation with Zod and schema-based access control.",
+      "point4": "Designed a cursor-based pagination system for highly efficient backend data retrieval."
     }
   },
   "mernTaskManager": {
     "title": "MERN Task Manager",
     "points": {
-      "point1": "Built a fullstack MERN application for task management.",
-      "point2": "Designed REST API with Express and Mongoose with CRUD operations.",
-      "point3": "Implemented user authentication with JWT and secured routes.",
-      "point4": "Optimized frontend with responsive design and CSS Modules for a seamless user experience."
+      "point1": "Developed a fullstack MERN application for robust task management.",
+      "point2": "Structured a clean REST API with Express and Mongoose for all core functionalities.",
+      "point3": "Implemented secure, token-based user authentication using JWT.",
+      "point4": "Built a responsive, component-based UI with React and CSS Modules."
     }
   },
   "weatherTailWind": {
-    "title": "Tailwind",
+    "title": "Tailwind Weather App",
     "points": {
-      "point1": "Built a weather application using React and Tailwind CSS.",
-      "point2": "Integrated with OpenWeather API for real-time weather data.",
-      "point3": "Implemented GeoDB API for location search."
+      "point1": "Crafted a responsive weather application using React and Tailwind CSS.",
+      "point2": "Integrated the OpenWeather API for live, real-time weather data.",
+      "point3": "Added GeoDB API support for dynamic location search."
     }
   },
   "boxShadowGenerator": {
     "title": "Box-Shadow Generator",
     "points": {
-      "point1": "Built a box-shadow generator tool using vanilla JavaScript.",
-      "point2": "Implemented real-time preview of box-shadows.",
-      "point3": "Added customizable options for shadow properties."
+      "point1": "Created a CSS box-shadow generator tool using vanilla JavaScript.",
+      "point2": "Implemented a real-time preview for instant visual feedback.",
+      "point3": "Added fully customizable options for all box-shadow properties."
     }
   },
   "stickies": {
     "title": "Stickies",
     "points": {
-      "point1": "Built a sticky notes application using vanilla JavaScript",
-      "point2": "Implemented search functionality for notes.",
-      "point3": "Integrated local storage for persistent note storage.",
-      "point4": "Added CSV export functionality."
+      "point1": "Developed a digital sticky notes application using vanilla JavaScript.",
+      "point2": "Implemented instant search functionality to filter notes.",
+      "point3": "Integrated browser local storage for persistent note-saving.",
+      "point4": "Added a data export feature to save notes as a CSV file."
     }
   },
   "githubLink": "GitHub",
