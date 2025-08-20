@@ -1,4 +1,3 @@
-import React from 'react';
 import { MdOutlineWbSunny } from 'react-icons/md';
 import { RiMoonLine } from 'react-icons/ri';
 import styles from './ThemeSwitcher.module.css';
