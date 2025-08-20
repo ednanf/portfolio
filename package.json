@@ -7,7 +7,6 @@
     "dev": "vite",
     "dev:mobile": "vite --host",
     "dev:preview": "vite preview --host",
-    "prebuild": "npx ttf2woff2 src/assets/fonts/*.ttf",
     "build": "tsc -b && vite build",
     "lint": "eslint ."
   },
