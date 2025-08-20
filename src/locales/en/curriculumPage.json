@@ -8,27 +8,27 @@
   },
   "profile": {
     "title": "Developer Profile",
-    "body": "Fullstack developer skilled in React, Node.js, and MongoDB. Experienced in building and deploying personal and academic projects with clean, responsive UI. Passionate about modern web applications and collaborative development."
+    "body": "A detail-oriented developer transitioning from a background in Law, now focused on building fullstack applications with React, Node.js, and MongoDB. Proven ability to self-teach and deliver complete projects from concept to deployment. Ready to apply a unique blend of analytical rigor and technical skill to a professional development team."
   },
   "techStack": {
     "title": "Tech Stack",
     "items": {
       "item1": "Languages: TypeScript, JavaScript (ES6+)",
-      "item2": "Frontend: React, CSS Modules, Responsive Design, Progressive Web Apps (PWA)",
-      "item3": "Backend: Node.js, Express.js, MongoDB (Mongoose), JWT Authentication, REST APIs, Zod (validation)",
-      "item4": "Security & Middleware: Helmet, CORS, bcrypt, input sanitization",
-      "item5": "Tooling: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
+      "item2": "Frontend: React, CSS Modules, Responsive Design, PWAs",
+      "item3": "Backend: Node.js, Express.js, REST APIs, JWT Authentication",
+      "item4": "Databases & ORMs: MongoDB, Mongoose",
+      "item5": "Tooling & Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
     }
   },
   "education": {
     "title": "Education",
     "postgrad": {
       "degree": "Postgraduate in Analysis and Development of Systems - PUC, 2025",
-      "focus": "Focus: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
+      "focus": "Key Skills: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
     },
     "bachelor": {
       "degree": "Bachelor of Law - Faculdade de Direito de Franca, 2012",
-      "focus": "Focus: Legal reasoning, compliance awareness, structured problem-solving"
+      "focus": "Key Skills: Analytical reasoning, structured problem-solving, and a meticulous attention to detail"
     }
   },
   "certifications": {
@@ -57,7 +57,7 @@
       },
       "cert6": {
         "name": "English Language Diploma - PBF",
-        "url": "https://www.linkedin.com/in/ednanrff/details/certifications/1755444372013/single-media-viewer/?type=DOCUMENT&profileId=ACoAABqsxoUBIyPE3dECZFKhjprtqenAAHm7AuU"
+        "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
       }
     }
   },

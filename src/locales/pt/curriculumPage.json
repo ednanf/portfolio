@@ -8,27 +8,27 @@
   },
   "profile": {
     "title": "Perfil de Desenvolvedor",
-    "body": "Desenvolvedor Fullstack com habilidades em React, Node.js e MongoDB. Experiente na construção e implantação de projetos pessoais e acadêmicos com UI limpa e responsiva. Apaixonado por aplicações web modernas e desenvolvimento colaborativo."
+    "body": "Desenvolvedor detalhista em transição de carreira da área de Direito, agora focado na construção de aplicações fullstack com React, Node.js e MongoDB. Habilidade comprovada em autoaprendizagem e na entrega de projetos completos, do conceito à implantação. Pronto para aplicar uma combinação única de rigor analítico e habilidade técnica em uma equipe de desenvolvimento profissional."
   },
   "techStack": {
     "title": "Tecnologias",
     "items": {
       "item1": "Linguagens: TypeScript, JavaScript (ES6+)",
-      "item2": "Frontend: React, CSS Modules, Design Responsivo, Progressive Web Apps (PWA)",
-      "item3": "Backend: Node.js, Express.js, MongoDB (Mongoose), Autenticação JWT, APIs REST, Zod (validação)",
-      "item4": "Segurança e Middleware: Helmet, CORS, bcrypt, sanitização de entrada",
-      "item5": "Ferramentas: Git, ESLint (Airbnb), TypeScript ESLint, Prettier, tsx"
+      "item2": "Frontend: React, CSS Modules, Design Responsivo, PWAs",
+      "item3": "Backend: Node.js, Express.js, APIs REST, Autenticação JWT",
+      "item4": "Bancos de Dados e ORMs: MongoDB, Mongoose",
+      "item5": "Ferramentas e Qualidade: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
     }
   },
   "education": {
     "title": "Formação",
     "postgrad": {
       "degree": "Pós-graduação em Análise e Desenvolvimento de Sistemas - PUC, 2025",
-      "focus": "Foco: Padrões Web, UX, Frontend (React), Backend (Node.js), Metodologias Ágeis"
+      "focus": "Habilidades Chave: Padrões Web, UX, Frontend (React), Backend (Node.js), Metodologias Ágeis"
     },
     "bachelor": {
       "degree": "Bacharel em Direito - Faculdade de Direito de Franca, 2012",
-      "focus": "Foco: Raciocínio jurídico, consciência de compliance, resolução estruturada de problemas"
+      "focus": "Habilidades Chave: Raciocínio analítico, resolução estruturada de problemas e uma atenção meticulosa aos detalhes"
     }
   },
   "certifications": {
@@ -57,7 +57,7 @@
       },
       "cert6": {
         "name": "English Language Diploma - PBF",
-        "url": "https://www.linkedin.com/in/ednanrff/details/certifications/1755444372013/single-media-viewer/?type=DOCUMENT&profileId=ACoAABqsxoUBIyPE3dECZFKhjprtqenAAHm7AuU"
+        "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
       }
     }
   },
