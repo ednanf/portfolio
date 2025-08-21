@@ -34,6 +34,7 @@
   "certifications": {
     "title": "Certifications",
     "viewAll": "View all certifications on LinkedIn",
+    "viewAllUrl": "https://www.linkedin.com/in/ednanrff/details/certifications/",
     "list": {
       "cert1": {
         "name": "The Complete JavaScript Course: From Zero to Expert",

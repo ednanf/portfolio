@@ -134,11 +134,7 @@ const CurriculumPage = () => {
               </a>
             </li>
             <li>
-              <a
-                href="https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href={t('certifications.viewAllUrl')} target="_blank" rel="noopener noreferrer">
                 {t('certifications.viewAll')} <VscLinkExternal />
               </a>
             </li>
