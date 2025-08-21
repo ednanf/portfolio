@@ -1,3 +1,5 @@
+<img width="134" height="134" alt="Favicon" src="https://github.com/user-attachments/assets/eee6021f-2a20-4300-a0e5-7d14e17f70c6" />
+
 # Portfolio
 
 ## About Me
