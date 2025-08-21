@@ -45,7 +45,7 @@ const ProjectsPage: React.FC = () => {
           title={t('gameJournal.title')}
           points={gameJournalPoints}
           githubUrl="https://github.com/ednanf/game-journal"
-          demoUrl="https://journal.frizzera.dev/journal"
+          demoUrl="https://journal.frizzera.dev "
         />
 
         <ProjectCard
@@ -61,21 +61,21 @@ const ProjectsPage: React.FC = () => {
           title={t('weatherTailWind.title')}
           points={weatherTailWindPoints}
           githubUrl="https://github.com/ednanf/weather-tailwind"
-          demoUrl="https://tailwind.frizzera.dev/"
+          demoUrl="https://tailwind.frizzera.dev"
         />
 
         <ProjectCard
           title={t('boxShadowGenerator.title')}
           points={boxShadowGeneratorPoints}
           githubUrl="https://github.com/ednanf/box-shadow-generator"
-          demoUrl="https://ednanf.github.io/box-shadow-generator/"
+          demoUrl="https://ednanf.github.io/box-shadow-generator"
         />
 
         <ProjectCard
           title={t('stickies.title')}
           points={stickiesPoints}
           githubUrl="https://github.com/ednanf/stickies"
-          demoUrl="https://ednanf.github.io/stickies/"
+          demoUrl="https://ednanf.github.io/stickies"
         />
       </div>
     </div>
