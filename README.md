@@ -18,7 +18,7 @@ featuring a minimalist aesthetic with a focus on typography and layout.
 
 ## Live Application
 
-🚀 **[View Live Demo](https://www.frizzera.dev)**
+🚀 **[Live Page](https://www.frizzera.dev)**
 
 ## Main Technologies
 
