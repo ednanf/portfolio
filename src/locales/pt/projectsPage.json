@@ -2,44 +2,44 @@
   "gameJournal": {
     "title": "Diário de Jogos",
     "points": {
-      "point1": "Desenvolvi um PWA fullstack, instalável em iOS/Android para uma experiência nativa.",
-      "point2": "Integrei autenticação de usuário segura e persistência de dados com MongoDB.",
-      "point3": "Implementei validação de dados robusta com Zod e controle de acesso baseado em schema.",
-      "point4": "Projetei um sistema de paginação baseado em cursor para recuperação de dados altamente eficiente no backend."
+      "point1": "Desenvolvi um PWA fullstack, instalável em iOS/Android para uma experiência nativa",
+      "point2": "Integrei autenticação de usuário segura e persistência de dados com MongoDB",
+      "point3": "Implementei validação de dados robusta com Zod e controle de acesso baseado em schema",
+      "point4": "Projetei um sistema de paginação baseado em cursor para recuperação de dados altamente eficiente no backend"
     }
   },
   "mernTaskManager": {
     "title": "Gerenciador de Tarefas MERN",
     "points": {
-      "point1": "Desenvolvi uma aplicação MERN fullstack para um gerenciamento de tarefas robusto.",
-      "point2": "Estruturei uma API REST coesa com Express e Mongoose para todas as funcionalidades principais.",
-      "point3": "Implementei autenticação de usuário segura e baseada em token usando JWT.",
-      "point4": "Construí uma UI responsiva e componentizada com React e CSS Modules."
+      "point1": "Desenvolvi uma aplicação MERN fullstack para um gerenciamento de tarefas robusto",
+      "point2": "Estruturei uma API REST coesa com Express e Mongoose para todas as funcionalidades principais",
+      "point3": "Implementei autenticação de usuário segura e baseada em token usando JWT",
+      "point4": "Construí uma UI responsiva e componentizada com React e CSS Modules"
     }
   },
   "weatherTailWind": {
     "title": "App de Clima com Tailwind",
     "points": {
-      "point1": "Construí uma aplicação de previsão do tempo responsiva usando React e Tailwind CSS.",
-      "point2": "Integrei a API OpenWeather para dados climáticos em tempo real.",
-      "point3": "Adicionei suporte à API GeoDB para busca de localização dinâmica."
+      "point1": "Construí uma aplicação de previsão do tempo responsiva usando React e Tailwind CSS",
+      "point2": "Integrei a API OpenWeather para dados climáticos em tempo real",
+      "point3": "Adicionei suporte à API GeoDB para busca de localização dinâmica"
     }
   },
   "boxShadowGenerator": {
     "title": "Gerador de box-shadow",
     "points": {
-      "point1": "Criei uma ferramenta para gerar box-shadow em CSS usando JavaScript puro.",
-      "point2": "Implementei uma visualização em tempo real para feedback visual instantâneo.",
-      "point3": "Adicionei opções totalmente personalizáveis para todas as propriedades do box-shadow."
+      "point1": "Criei uma ferramenta para gerar box-shadow em CSS usando JavaScript puro",
+      "point2": "Implementei uma visualização em tempo real para feedback visual instantâneo",
+      "point3": "Adicionei opções totalmente personalizáveis para todas as propriedades do box-shadow"
     }
   },
   "stickies": {
     "title": "Stickies",
     "points": {
-      "point1": "Desenvolvi uma aplicação de notas adesivas digitais usando JavaScript puro.",
-      "point2": "Implementei uma funcionalidade de busca instantânea para filtrar notas.",
-      "point3": "Integrei o armazenamento local do navegador para persistência de notas.",
-      "point4": "Adicionei uma funcionalidade de exportação de dados para salvar notas como um arquivo CSV."
+      "point1": "Desenvolvi uma aplicação de notas adesivas digitais usando JavaScript puro",
+      "point2": "Implementei uma funcionalidade de busca instantânea para filtrar notas",
+      "point3": "Integrei o armazenamento local do navegador para persistência de notas",
+      "point4": "Adicionei uma funcionalidade de exportação de dados para salvar notas como um arquivo CSV"
     }
   },
   "githubLink": "GitHub",

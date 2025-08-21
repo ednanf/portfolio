@@ -27,11 +27,11 @@
   "education": {
     "title": "Education",
     "postgrad": {
-      "degree": "Postgraduate in Analysis and Development of Systems - PUC, 2025",
+      "degree": "Postgraduate in Analysis and Development of Systems – PUC, 2025",
       "focus": "Key Skills: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
     },
     "bachelor": {
-      "degree": "Bachelor of Law - Faculdade de Direito de Franca, 2012",
+      "degree": "Bachelor of Law – Faculdade de Direito de Franca, 2012",
       "focus": "Key Skills: Analytical reasoning, structured problem-solving, and a meticulous attention to detail"
     }
   },
@@ -53,22 +53,22 @@
         "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
       },
       "cert4": {
-        "name": "Formação Front-end - HTML, CSS, JavaScript, React",
+        "name": "Formação Front-end – HTML, CSS, JavaScript, React",
         "url": "https://www.udemy.com/certificate/UC-65f9321e-21dc-455b-b1d7-1b997c593d2c/"
       },
       "cert5": {
-        "name": "iOS & Swift - The Complete iOS App Development Bootcamp",
+        "name": "iOS & Swift – The Complete iOS App Development Bootcamp",
         "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
       },
       "cert6": {
-        "name": "English Language Diploma - PBF",
+        "name": "English Language Diploma – PBF",
         "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
       }
     }
   },
   "languages": {
     "title": "Languages",
-    "english": "English (C2 level)",
-    "portuguese": "Brazilian Portuguese (native)"
+    "english": "English: C2",
+    "portuguese": "Portuguese: native"
   }
 }
