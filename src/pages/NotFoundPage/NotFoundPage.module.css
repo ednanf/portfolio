@@ -1,0 +1,15 @@
+/* src/pages/NotFoundPage/NotFoundPage.module.css */
+.pageContent {
+    composes: pageContent from '../shared.module.css';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem; /* Adjust as needed for breathing room */
+}
+
+.h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
