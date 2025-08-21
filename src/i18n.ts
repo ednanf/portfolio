@@ -1,4 +1,5 @@
 // i18n setup
+
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
@@ -14,7 +15,7 @@ i18n
   )
   .init({
     fallbackLng: 'en',
-    ns: ['common', 'curriculumPage', 'projectsPage'], // Namespace
+    ns: ['common', 'curriculumPage', 'projectsPage', 'notFoundPage'], // Added notFoundPage namespace
     defaultNS: 'common',
     interpolation: {
       escapeValue: false, // React already does this
@@ -23,6 +24,10 @@ i18n
       order: ['querystring', 'localStorage', 'navigator'],
       caches: ['localStorage'],
     },
+  })
+  .then(() => {
+    // i18n initialized successfully
+  })
+  .catch((err) => {
+    console.error('i18n initialization failed:', err);
   });
-
-export default i18n;
