@@ -45,7 +45,7 @@ const ProjectsPage: React.FC = () => {
           title={t('gameJournal.title')}
           points={gameJournalPoints}
           githubUrl="https://github.com/ednanf/game-journal"
-          demoUrl="https://game-journal-ednan.vercel.app"
+          demoUrl="https://journal.frizzera.dev/journal"
         />
 
         <ProjectCard
@@ -54,14 +54,14 @@ const ProjectsPage: React.FC = () => {
           {...(isPt ? { titleKeyFontSize: 20 } : {})}
           points={mernTaskManagerPoints}
           githubUrl="https://github.com/ednanf/mern-task-manager"
-          demoUrl="https://mern-task-manager-eight.vercel.app"
+          demoUrl="https://taskmanager.frizzera.dev"
         />
 
         <ProjectCard
           title={t('weatherTailWind.title')}
           points={weatherTailWindPoints}
           githubUrl="https://github.com/ednanf/weather-tailwind"
-          demoUrl="https://ednanf-tailwind.vercel.app/"
+          demoUrl="https://tailwind.frizzera.dev/"
         />
 
         <ProjectCard
