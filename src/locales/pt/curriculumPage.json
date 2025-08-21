@@ -4,7 +4,11 @@
     "name": "Nome: Ednan Rogério Frizzera Filho",
     "email": "Email: ednan@frizzera.dev",
     "linkedin": "LinkedIn",
-    "github": "GitHub"
+    "github": "GitHub",
+    "cv": {
+      "url": "https://res.cloudinary.com/ednan/image/upload/v1755793968/CV-2025-PTBR_alpr36.pdf",
+      "text": "Versão em PDF"
+    }
   },
   "profile": {
     "title": "Perfil de Desenvolvedor",

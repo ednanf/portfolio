@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import H2Custom from '../../components/H2Custom/H2Custom.tsx';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { VscLinkExternal } from 'react-icons/vsc';
+import { PiDownloadSimpleLight } from 'react-icons/pi';
 
 import styles from './CurriculumPage.module.css';
 import sharedStyles from '../shared.module.css';
@@ -38,6 +39,16 @@ const CurriculumPage = () => {
               </a>
             </li>
           </ul>
+          <span className={styles.viewMore}>
+            <a
+              className={styles.link}
+              href={t('contact.cv.url')}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('contact.cv.text')} <PiDownloadSimpleLight className={styles.icon} />
+            </a>
+          </span>
         </div>
       </section>
 
@@ -88,6 +99,7 @@ const CurriculumPage = () => {
                 {t('certifications.list.cert1.name')} <VscLinkExternal />
               </a>
             </li>
+
             <li>
               <a
                 href={t('certifications.list.cert2.url')}
@@ -97,6 +109,7 @@ const CurriculumPage = () => {
                 {t('certifications.list.cert2.name')} <VscLinkExternal />
               </a>
             </li>
+
             <li>
               <a
                 href={t('certifications.list.cert3.url')}
@@ -106,6 +119,7 @@ const CurriculumPage = () => {
                 {t('certifications.list.cert3.name')} <VscLinkExternal />
               </a>
             </li>
+
             <li>
               <a
                 href={t('certifications.list.cert4.url')}
@@ -115,6 +129,7 @@ const CurriculumPage = () => {
                 {t('certifications.list.cert4.name')} <VscLinkExternal />
               </a>
             </li>
+
             <li>
               <a
                 href={t('certifications.list.cert5.url')}
@@ -124,6 +139,7 @@ const CurriculumPage = () => {
                 {t('certifications.list.cert5.name')} <VscLinkExternal />
               </a>
             </li>
+
             <li>
               <a
                 href={t('certifications.list.cert6.url')}
@@ -133,19 +149,22 @@ const CurriculumPage = () => {
                 {t('certifications.list.cert6.name')} <VscLinkExternal />
               </a>
             </li>
-            <li>
+
+            <span className={styles.viewMore}>
               <a href={t('certifications.viewAllUrl')} target="_blank" rel="noopener noreferrer">
                 {t('certifications.viewAll')} <VscLinkExternal />
               </a>
-            </li>
+            </span>
           </ul>
         </div>
       </section>
+
       <section className={styles.container}>
         <H2Custom iconSize={20}>{t('languages.title')}</H2Custom>
         <div className={styles.sectionContent}>
           <ul className={sharedStyles.list}>
             <li>{t('languages.english')}</li>
+
             <li>{t('languages.portuguese')}</li>
           </ul>
         </div>

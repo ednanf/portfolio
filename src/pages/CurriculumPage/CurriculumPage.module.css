@@ -22,22 +22,29 @@
   gap: 0.5rem;
 }
 
-.link {
-  display: flex;
-  align-items: center;
-  gap: 0.1rem;
-  color: var(--color-text-primary);
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
 .educationItem:not(:last-child) {
   padding-bottom: 1rem;
 }
 
-.link svg,
-.sectionContent ul a svg {
+.link svg:not(.icon),
+.sectionContent ul a svg:not(.icon) {
   width: 12px;
   height: 12px;
   flex-shrink: 0;
+}
+
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.viewMore {
+  display: block;
+  margin-top: 1rem;
 }
