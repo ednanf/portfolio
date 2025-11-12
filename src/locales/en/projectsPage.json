@@ -1,47 +1,56 @@
 {
-  "gameJournal": {
-    "title": "Game Journal",
-    "points": {
-      "point1": "Engineered a fullstack PWA, installable on iOS/Android for a native-like experience.",
-      "point2": "Integrated secure user authentication and data persistence using MongoDB.",
-      "point3": "Implemented robust data validation with Zod and schema-based access control.",
-      "point4": "Designed a cursor-based pagination system for highly efficient backend data retrieval."
+    "boxShadowGenerator": {
+        "points": {
+            "point1": "Created a CSS box-shadow generator tool using vanilla JavaScript.",
+            "point2": "Implemented a real-time preview for instant visual feedback.",
+            "point3": "Added fully customizable options for all box-shadow properties."
+        },
+        "title": "Box-Shadow Generator"
+    },
+    "gameJournal": {
+        "points": {
+            "point1": "Engineered a full-stack PWA, installable on iOS/Android for a native-like experience.",
+            "point2": "Integrated secure user authentication and data persistence using MongoDB.",
+            "point3": "Implemented robust data validation with Zod and schema-based access control.",
+            "point4": "Designed a cursor-based pagination system for highly efficient backend data retrieval."
+        },
+        "title": "Game Journal"
+    },
+    "githubLink": "GitHub",
+    "liveDemoLink": "Live Demo",
+    "mernTaskManager": {
+        "points": {
+            "point1": "Developed a full-stack MERN application for robust task management.",
+            "point2": "Structured a clean REST API with Express and Mongoose for all core functionalities.",
+            "point3": "Implemented secure, token-based user authentication using JWT.",
+            "point4": "Built a responsive, component-based UI with React and CSS Modules."
+        },
+        "title": "MERN Task Manager"
+    },
+    "miniCommunity": {
+        "points": {
+            "point1": "Developed a full-stack social media PWA using the MERN stack.",
+            "point2": "Implemented robust data validation with Zod and schema-based access control.",
+            "point3": "Integrated cursor-based pagination for a seamless infinite-scroll experience.",
+            "point4": "Designed a layout system inspired by SwiftUI using vertical and horizontal stacks."
+        },
+        "title": "Mini Community"
+    },
+    "stickies": {
+        "points": {
+            "point1": "Developed a digital sticky notes application using vanilla JavaScript.",
+            "point2": "Implemented instant search functionality to filter notes.",
+            "point3": "Integrated browser local storage for persistent note-saving.",
+            "point4": "Added a data export feature to save notes as a CSV file."
+        },
+        "title": "Stickies"
+    },
+    "weatherTailWind": {
+        "points": {
+            "point1": "Crafted a responsive weather application using React and Tailwind CSS.",
+            "point2": "Integrated the OpenWeather API for live, real-time weather data.",
+            "point3": "Added GeoDB API support for dynamic location search."
+        },
+        "title": "Tailwind Weather App"
     }
-  },
-  "mernTaskManager": {
-    "title": "MERN Task Manager",
-    "points": {
-      "point1": "Developed a fullstack MERN application for robust task management.",
-      "point2": "Structured a clean REST API with Express and Mongoose for all core functionalities.",
-      "point3": "Implemented secure, token-based user authentication using JWT.",
-      "point4": "Built a responsive, component-based UI with React and CSS Modules."
-    }
-  },
-  "weatherTailWind": {
-    "title": "Tailwind Weather App",
-    "points": {
-      "point1": "Crafted a responsive weather application using React and Tailwind CSS.",
-      "point2": "Integrated the OpenWeather API for live, real-time weather data.",
-      "point3": "Added GeoDB API support for dynamic location search."
-    }
-  },
-  "boxShadowGenerator": {
-    "title": "Box-Shadow Generator",
-    "points": {
-      "point1": "Created a CSS box-shadow generator tool using vanilla JavaScript.",
-      "point2": "Implemented a real-time preview for instant visual feedback.",
-      "point3": "Added fully customizable options for all box-shadow properties."
-    }
-  },
-  "stickies": {
-    "title": "Stickies",
-    "points": {
-      "point1": "Developed a digital sticky notes application using vanilla JavaScript.",
-      "point2": "Implemented instant search functionality to filter notes.",
-      "point3": "Integrated browser local storage for persistent note-saving.",
-      "point4": "Added a data export feature to save notes as a CSV file."
-    }
-  },
-  "githubLink": "GitHub",
-  "liveDemoLink": "Live Demo"
 }
