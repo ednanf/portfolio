@@ -56,7 +56,7 @@ const ProjectsPage: React.FC = () => {
                 <ProjectCard
                     title={t('reactSwiftStacks.title')}
                     points={reactSwiftStacksPoints}
-                    githubUrl="https://github.com/ednanf/react-stacks"
+                    githubUrl="https://github.com/ednanf/react-swiftstacks"
                     demoUrl="https://www.npmjs.com/package/react-swiftstacks"
                 />
 
