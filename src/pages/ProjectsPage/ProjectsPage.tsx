@@ -9,6 +9,12 @@ const ProjectsPage: React.FC = () => {
     const isPt = Boolean(i18n?.language && i18n.language.startsWith('pt'));
 
     // Explicit keys to make it easier to read
+    const reactSwiftStacksPoints = [
+        t('reactSwiftStacks.points.point1'),
+        t('reactSwiftStacks.points.point2'),
+        t('reactSwiftStacks.points.point3'),
+        t('reactSwiftStacks.points.point4'),
+    ];
     const miniCommunityPoints = [
         t('miniCommunity.points.point1'),
         t('miniCommunity.points.point4'),
@@ -47,6 +53,13 @@ const ProjectsPage: React.FC = () => {
     return (
         <div className={sharedStyles.pageContent}>
             <div className={styles.projectList}>
+                <ProjectCard
+                    title={t('reactSwiftStacks.title')}
+                    points={reactSwiftStacksPoints}
+                    githubUrl="https://github.com/ednanf/react-stacks"
+                    demoUrl="https://www.npmjs.com/package/react-swiftstacks"
+                />
+
                 <ProjectCard
                     title={t('miniCommunity.title')}
                     points={miniCommunityPoints}

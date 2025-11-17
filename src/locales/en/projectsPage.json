@@ -17,7 +17,7 @@
         "title": "Game Journal"
     },
     "githubLink": "GitHub",
-    "liveDemoLink": "Live Demo",
+    "liveDemoLink": "Live Page",
     "mernTaskManager": {
         "points": {
             "point1": "Developed a full-stack MERN application for robust task management.",
@@ -35,6 +35,15 @@
             "point4": "Designed a layout system inspired by SwiftUI using vertical and horizontal stacks."
         },
         "title": "Mini Community"
+    },
+    "reactSwiftStacks": {
+        "points": {
+            "point1": "Published an open-source React component library that mimics SwiftUI's stack-based layout system.",
+            "point2": "Facilitated rapid UI development with intuitive VerticalStack and HorizontalStack components.",
+            "point3": "Ensured responsiveness and flexibility through customizable props and styles.",
+            "point4": "Maintained comprehensive documentation and examples for easy adoption by developers."
+        },
+        "title": "React Swift Stacks"
     },
     "stickies": {
         "points": {

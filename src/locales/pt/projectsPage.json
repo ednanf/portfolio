@@ -17,7 +17,7 @@
         "title": "Diário de Jogos"
     },
     "githubLink": "GitHub",
-    "liveDemoLink": "Demonstração",
+    "liveDemoLink": "Página",
     "mernTaskManager": {
         "points": {
             "point1": "Desenvolvi uma aplicação MERN full-stack para um gerenciamento de tarefas robusto",
@@ -32,9 +32,18 @@
             "point1": "Desenvolvi uma PWA full-stack de rede social usando o stack MERN",
             "point2": "Implementei validação de dados robusta com Zod e controle de acesso baseado em esquemas",
             "point3": "Integrei paginação por cursor para uma experiência fluida com rolagem infinita",
-            "point4": "Desenhei um sistema de layout inspirado no SwiftUI usando pilhas verticais e horizontais"
+            "point4": "Projetei um sistema de layout inspirado no SwiftUI usando pilhas verticais e horizontais"
         },
         "title": "Mini Community"
+    },
+    "reactSwiftStacks": {
+        "points": {
+            "point1": "Publiquei uma biblioteca de componentes React open-source que imita o sistema de layout em pilhas do SwiftUI",
+            "point2": " Tornei o desenvolvimento de interfaces mais rápido com componentes intuitivos como VerticalStack e HorizontalStack",
+            "point3": "Garanti responsividade e flexibilidade por meio de props e estilos totalmente personalizáveis",
+            "point4": "Criei documentação completa e exemplos claros para facilitar a adoção por outros desenvolvedores"
+        },
+        "title": "React Swift Stacks"
     },
     "stickies": {
         "points": {

@@ -1,70 +1,70 @@
 {
-  "certifications": {
-    "list": {
-      "cert1": {
-        "name": "The Complete JavaScript Course: From Zero to Expert",
-        "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
-      },
-      "cert2": {
-        "name": "React: The Complete Guide",
-        "url": "https://www.udemy.com/certificate/UC-1165a0e7-9da6-4556-bb71-00d6d92417cf/"
-      },
-      "cert3": {
-        "name": "Node.js, Express, MongoDB & More",
-        "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
-      },
-      "cert5": {
-        "name": "iOS & Swift – The Complete iOS App Development Bootcamp",
-        "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
-      },
-      "cert6": {
-        "name": "English Language Diploma – PBF",
-        "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
-      }
+    "certifications": {
+        "list": {
+            "cert1": {
+                "name": "The Complete JavaScript Course: From Zero to Expert",
+                "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
+            },
+            "cert2": {
+                "name": "React: The Complete Guide",
+                "url": "https://www.udemy.com/certificate/UC-1165a0e7-9da6-4556-bb71-00d6d92417cf/"
+            },
+            "cert3": {
+                "name": "Node.js, Express, MongoDB & More",
+                "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
+            },
+            "cert5": {
+                "name": "iOS & Swift – The Complete iOS App Development Bootcamp",
+                "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
+            },
+            "cert6": {
+                "name": "English Language Diploma – PBF",
+                "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
+            }
+        },
+        "title": "Certifications",
+        "viewAll": "View all certifications on LinkedIn",
+        "viewAllUrl": "https://www.linkedin.com/in/ednanrff/details/certifications/"
     },
-    "title": "Certifications",
-    "viewAll": "View all certifications on LinkedIn",
-    "viewAllUrl": "https://www.linkedin.com/in/ednanrff/details/certifications/"
-  },
-  "contact": {
-    "cv": {
-      "text": "PDF Version",
-      "url": "https://res.cloudinary.com/ednan/image/upload/v1762953180/CV-2025-EN.pdf"
+    "contact": {
+        "cv": {
+            "text": "PDF Version",
+            "url": "https://res.cloudinary.com/ednan/image/upload/v1762953180/CV-2025-EN.pdf"
+        },
+        "email": "Email: ednan@frizzera.dev",
+        "github": "GitHub",
+        "linkedin": "LinkedIn",
+        "name": "Name: Ednan Rogério Frizzera Filho",
+        "title": "Contact Info"
     },
-    "email": "Email: ednan@frizzera.dev",
-    "github": "GitHub",
-    "linkedin": "LinkedIn",
-    "name": "Name: Ednan Rogério Frizzera Filho",
-    "title": "Contact Info"
-  },
-  "education": {
-    "bachelor": {
-      "degree": "Bachelor of Law – Faculdade de Direito de Franca, 2012",
-      "focus": "Key Skills: Analytical reasoning, structured problem-solving, and a meticulous attention to detail"
+    "education": {
+        "bachelor": {
+            "degree": "Bachelor of Law – Faculdade de Direito de Franca, 2012",
+            "focus": "Key Skills: Analytical reasoning, structured problem-solving, and a meticulous attention to detail"
+        },
+        "postgrad": {
+            "degree": "Postgraduate in Analysis and Development of Systems – PUC, 2025",
+            "focus": "Key Skills: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
+        },
+        "title": "Education"
     },
-    "postgrad": {
-      "degree": "Postgraduate in Analysis and Development of Systems – PUC, 2025",
-      "focus": "Key Skills: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
+    "languages": {
+        "english": "English: C2",
+        "portuguese": "Portuguese: native",
+        "title": "Languages"
     },
-    "title": "Education"
-  },
-  "languages": {
-    "english": "English: C2",
-    "portuguese": "Portuguese: native",
-    "title": "Languages"
-  },
-  "profile": {
-    "body": "A detail-oriented developer transitioning from a background in Law, now focused on building fullstack applications with React, Node.js, and MongoDB. Proven ability to self-teach and deliver complete projects from concept to deployment. Ready to apply a unique blend of analytical rigor and technical skill to a professional development team.",
-    "title": "Developer Profile"
-  },
-  "techStack": {
-    "items": {
-      "item1": "Languages: TypeScript, JavaScript (ES6+)",
-      "item2": "Frontend: React, CSS Modules, Responsive Design, PWAs",
-      "item3": "Backend: Node.js, Express.js, REST APIs, JWT Authentication",
-      "item4": "Databases & ORMs: MongoDB, Mongoose",
-      "item5": "Tooling & Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
+    "profile": {
+        "body": "A detail-oriented developer transitioning from a background in Law, now focused on building fullstack applications with React, Node.js, and MongoDB. Proven ability to self-teach and deliver complete projects from concept to deployment. Ready to apply a unique blend of analytical rigor and technical skill to a professional development team.",
+        "title": "Developer Profile"
     },
-    "title": "Tech Stack"
-  }
+    "techStack": {
+        "items": {
+            "item1": "Languages: TypeScript, JavaScript (ES6+)",
+            "item2": "Frontend: React, CSS Modules, Responsive Design, PWAs",
+            "item3": "Backend: Node.js, Express.js, REST APIs, JWT Authentication",
+            "item4": "Databases & ORMs: MongoDB, Mongoose",
+            "item5": "Tooling & Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
+        },
+        "title": "Tech Stack"
+    }
 }
