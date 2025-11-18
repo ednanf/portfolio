@@ -40,7 +40,7 @@
         "points": {
             "point1": "Publiquei uma biblioteca de componentes React open-source que imita o sistema de layout em pilhas do SwiftUI",
             "point2": " Tornei o desenvolvimento de interfaces mais rápido com componentes intuitivos como VerticalStack e HorizontalStack",
-            "point3": "Garanti responsividade e flexibilidade por meio de props e estilos totalmente personalizáveis",
+            "point3": "Assegurei responsividade e flexibilidade por meio de props e estilos totalmente personalizáveis",
             "point4": "Criei documentação completa e exemplos claros para facilitar a adoção por outros desenvolvedores"
         },
         "title": "React Swift Stacks"
