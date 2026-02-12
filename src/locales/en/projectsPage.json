@@ -20,7 +20,7 @@
         "points": {
             "point1": "Designed the system with a strong focus on scalability, clear separation of concerns, and predictable state management, applying well-defined patterns across frontend and backend.",
             "point2": "Implemented a true offline-first approach, ensuring data consistency and uninterrupted user experience regardless of network connectivity.",
-            "point3": "Designed the project with a balanced focus on user experience and technical robustness, weighing architectural decisions, performance, and usability.",
+            "point3": "Shaped the project with a balanced focus on user experience and technical robustness, weighing architectural decisions, performance, and usability.",
             "point4": "Took full ownership of the stack and architectural decisions, treating the project as a real product from end to end."
         },
         "title": "Game Journal V2"
@@ -39,7 +39,7 @@
             "point1": "Built a full-stack social media PWA using the MERN stack, with a strong focus on smooth navigation and continuous user experience.",
             "point2": "Implemented schema-based data validation and access control with Zod, ensuring consistency across user interactions.",
             "point3": "Designed an infinite scrolling experience using cursor-based pagination, enabling efficient and progressive content loading.",
-            "point4": "Designed a SwiftUI-inspired layout system based on vertical and horizontal stacks for flexible UI composition."
+            "point4": "Implemented a SwiftUI-inspired layout system based on vertical and horizontal stacks for flexible UI composition."
         },
         "title": "Mini Community"
     },

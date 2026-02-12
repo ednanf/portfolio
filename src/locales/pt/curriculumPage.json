@@ -58,13 +58,13 @@
         "title": "Perfil de Desenvolvedor"
     },
     "techStack": {
-        "title": "Tecnologias",
         "items": {
             "item1": "Linguagens: TypeScript, JavaScript (ES6+)",
             "item2": "Frontend: React, CSS Modules, Design Responsivo, PWAs",
             "item3": "Backend: Node.js, Express.js, APIs REST, Autenticação JWT",
             "item4": "Banco de Dados e ODMs: MongoDB, Mongoose",
             "item5": "Ferramentas e Qualidade: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
-        }
+        },
+        "title": "Tecnologias"
     }
 }

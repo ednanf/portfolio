@@ -58,13 +58,13 @@
         "title": "Developer Profile"
     },
     "techStack": {
-        "title": "Tech Stack",
         "items": {
             "item1": "Languages: TypeScript, JavaScript (ES6+)",
             "item2": "Frontend: React, CSS Modules, Responsive Design, PWAs",
             "item3": "Backend: Node.js, Express.js, REST APIs, JWT Authentication",
             "item4": "Database and ODMs: MongoDB, Mongoose",
             "item5": "Tooling and Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
-        }
+        },
+        "title": "Tech Stack"
     }
 }
