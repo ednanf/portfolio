@@ -16,6 +16,15 @@
         },
         "title": "Game Journal"
     },
+    "gameJournalV2": {
+        "points": {
+            "point1": "Designed the system with a strong focus on scalability, clear separation of concerns, and predictable state management, applying well-defined patterns across both frontend and backend.",
+            "point2": "Implemented a true offline-first approach, ensuring data consistency and uninterrupted user experience regardless of network connectivity.",
+            "point3": "Designed the project with a strong balance between user experience and technical robustness, carefully weighing architectural decisions, performance, and usability.",
+            "point4": "Owned the entire stack and all architectural decisions, approaching the project as a production-grade product from end to end"
+        },
+        "title": "Game Journal V2"
+    },
     "githubLink": "GitHub",
     "liveDemoLink": "Live Page",
     "mernTaskManager": {

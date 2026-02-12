@@ -16,6 +16,15 @@
         },
         "title": "Diário de Jogos"
     },
+    "gameJournalV2": {
+        "points": {
+            "point1": "Projetei o sistema com foco em escalabilidade, separação de responsabilidades e previsibilidade de estado, aplicando padrões claros tanto no frontend quanto no backend",
+            "point2": "Implementei uma abordagem \"offline-first\" real, garantindo consistência de dados e continuidade da experiência independentemente da conectividade",
+            "point3": "Desenhei o projeto com foco em experiência do usuário e robustez técnica, equilibrando decisões de arquitetura, performance e usabilidade",
+            "point4": "Assumi controle completo do stack e das decisões arquiteturais, conduzindo o projeto como um produto real do início ao fim"
+        },
+        "title": "Diário de Jogos V2"
+    },
     "githubLink": "GitHub",
     "liveDemoLink": "Página",
     "mernTaskManager": {

@@ -9,6 +9,13 @@ const ProjectsPage: React.FC = () => {
     const isPt = Boolean(i18n?.language && i18n.language.startsWith('pt'));
 
     // Explicit keys to make it easier to read
+    const gameJournalV2Points = [
+        t('projectsPage:gameJournalV2.points.point1'),
+        t('projectsPage:gameJournalV2.points.point2'),
+        t('projectsPage:gameJournalV2.points.point3'),
+        t('projectsPage:gameJournalV2.points.point4'),
+    ];
+
     const reactSwiftStacksPoints = [
         t('reactSwiftStacks.points.point1'),
         t('reactSwiftStacks.points.point2'),
@@ -54,6 +61,13 @@ const ProjectsPage: React.FC = () => {
         <div className={sharedStyles.pageContent}>
             <div className={styles.projectList}>
                 <ProjectCard
+                    title={t('projectsPage:gameJournalV2.title')}
+                    points={gameJournalV2Points}
+                    githubUrl="https://github.com/ednanf/game-journal-v2"
+                    demoUrl="https://journal.frizzera.dev"
+                />
+
+                <ProjectCard
                     title={t('reactSwiftStacks.title')}
                     points={reactSwiftStacksPoints}
                     githubUrl="https://github.com/ednanf/react-swiftstacks"
@@ -71,7 +85,7 @@ const ProjectsPage: React.FC = () => {
                     title={t('gameJournal.title')}
                     points={gameJournalPoints}
                     githubUrl="https://github.com/ednanf/game-journal"
-                    demoUrl="https://journal.frizzera.dev "
+                    demoUrl="https://game-journal.frizzera.dev "
                 />
 
                 <ProjectCard
