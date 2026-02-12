@@ -1,72 +1,72 @@
 {
     "boxShadowGenerator": {
         "points": {
-            "point1": "Desenvolvi uma ferramenta interativa para geração de box-shadow em CSS utilizando apenas JavaScript, HTML e CSS.",
-            "point2": "Implementei atualização de estilo em tempo real, proporcionando feedback visual imediato conforme os parâmetros são ajustados.",
-            "point3": "Modelei controles configuráveis para todas as propriedades relevantes do box-shadow, facilitando experimentação e aprendizado visual."
+            "point1": "Desenvolvi uma ferramenta interativa para geração de box-shadow em CSS utilizando apenas JavaScript, HTML e CSS",
+            "point2": "Implementei atualização de estilo em tempo real, proporcionando feedback visual imediato conforme os parâmetros são ajustados",
+            "point3": "Modelei controles configuráveis para todas as propriedades relevantes do box-shadow, facilitando experimentação e aprendizado visual"
         },
         "title": "Gerador de Box-Shadow"
     },
     "gameJournal": {
         "points": {
-            "point1": "Desenvolvi um PWA full-stack, instalável em iOS e Android, oferecendo uma experiência web próxima à nativa.",
-            "point2": "Implementei autenticação de usuários segura e persistência de dados confiável, utilizando MongoDB como camada de armazenamento.",
-            "point3": "Apliquei validação de dados e controle de acesso baseados em schema com Zod, estabelecendo limites claros entre entrada, autorização e domínio.",
-            "point4": "Projetei uma estratégia de paginação por cursor para garantir acesso eficiente e escalável aos dados no backend."
+            "point1": "Desenvolvi um PWA full-stack, instalável em iOS e Android, oferecendo uma experiência web próxima à nativa",
+            "point2": "Implementei autenticação de usuários segura e persistência de dados confiável, utilizando MongoDB como camada de armazenamento",
+            "point3": "Apliquei validação de dados e controle de acesso baseados em schema com Zod, estabelecendo limites claros entre entrada, autorização e domínio",
+            "point4": "Projetei uma estratégia de paginação por cursor para garantir acesso eficiente e escalável aos dados no backend"
         },
         "title": "Diário de Jogos"
     },
     "gameJournalV2": {
         "points": {
-            "point1": "Projetei o sistema com foco em escalabilidade, separação de responsabilidades e previsibilidade de estado, aplicando padrões claros no frontend e no backend.",
-            "point2": "Implementei uma abordagem offline-first real, garantindo consistência de dados e continuidade da experiência independentemente da conectividade.",
-            "point3": "Desenhei o projeto equilibrando experiência do usuário e robustez técnica, considerando decisões de arquitetura, performance e usabilidade.",
-            "point4": "Assumi controle completo do stack e das decisões arquiteturais, conduzindo o projeto como um produto real do início ao fim."
+            "point1": "Projetei o sistema com foco em escalabilidade, separação de responsabilidades e previsibilidade de estado, aplicando padrões claros no frontend e no backend",
+            "point2": "Implementei uma abordagem offline-first real, garantindo consistência de dados e continuidade da experiência independentemente da conectividade",
+            "point3": "Desenhei o projeto equilibrando experiência do usuário e robustez técnica, considerando decisões de arquitetura, performance e usabilidade",
+            "point4": "Assumi controle completo do stack e das decisões arquiteturais, conduzindo o projeto como um produto real do início ao fim"
         },
         "title": "Diário de Jogos V2"
     },
     "mernTaskManager": {
         "points": {
-            "point1": "Desenvolvi uma aplicação MERN full-stack para gerenciamento de tarefas, com foco em organização de domínio e clareza estrutural.",
-            "point2": "Projetei uma API REST bem definida utilizando Express e Mongoose, separando responsabilidades entre rotas, controladores e modelos.",
-            "point3": "Implementei autenticação baseada em tokens (JWT), garantindo controle de acesso consistente aos recursos da aplicação.",
-            "point4": "Construí uma interface React responsiva e componentizada, priorizando reutilização de componentes e manutenção do código."
+            "point1": "Desenvolvi uma aplicação MERN full-stack para gerenciamento de tarefas, com foco em organização de domínio e clareza estrutural",
+            "point2": "Projetei uma API REST bem definida utilizando Express e Mongoose, separando responsabilidades entre rotas, controladores e modelos",
+            "point3": "Implementei autenticação baseada em tokens (JWT), garantindo controle de acesso consistente aos recursos da aplicação",
+            "point4": "Construí uma interface React responsiva e componentizada, priorizando reutilização de componentes e manutenção do código"
         },
         "title": "Gerenciador de Tarefas MERN"
     },
     "miniCommunity": {
         "points": {
-            "point1": "Desenvolvi uma PWA full-stack de rede social utilizando o stack MERN, com foco em fluidez de navegação e experiência contínua.",
-            "point2": "Implementei validação de dados e controle de acesso baseados em schema com Zod, garantindo consistência nas interações do usuário.",
-            "point3": "Projetei uma experiência de rolagem infinita com paginação por cursor, permitindo carregamento progressivo e eficiente de conteúdo.",
-            "point4": "Desenhei um sistema de layout inspirado no SwiftUI, baseado em pilhas verticais e horizontais para composição flexível de interfaces."
+            "point1": "Desenvolvi uma PWA full-stack de rede social utilizando o stack MERN, com foco em fluidez de navegação e experiência contínua",
+            "point2": "Implementei validação de dados e controle de acesso baseados em schema com Zod, garantindo consistência nas interações do usuário",
+            "point3": "Projetei uma experiência de rolagem infinita com paginação por cursor, permitindo carregamento progressivo e eficiente de conteúdo",
+            "point4": "Desenhei um sistema de layout inspirado no SwiftUI, baseado em pilhas verticais e horizontais para composição flexível de interfaces"
         },
         "title": "Mini Community"
     },
     "reactSwiftStacks": {
         "points": {
-            "point1": "Criei e publiquei um pacote React no NPM inspirado no sistema de layout em pilhas do SwiftUI, com foco em simplicidade e ergonomia de uso.",
-            "point2": "Modelei uma API declarativa baseada em componentes como VerticalStack e HorizontalStack, reduzindo a complexidade na composição de layouts.",
-            "point3": "Projetei o pacote para ser reutilizável e consistente, adotando-o como base de layout em múltiplos projetos pessoais.",
-            "point4": "Documentei padrões de uso e decisões de design para facilitar adoção, manutenção e evolução contínua."
+            "point1": "Criei e publiquei um pacote React no NPM inspirado no sistema de layout em pilhas do SwiftUI, com foco em simplicidade e ergonomia de uso",
+            "point2": "Modelei uma API declarativa baseada em componentes como VerticalStack e HorizontalStack, reduzindo a complexidade na composição de layouts",
+            "point3": "Projetei o pacote para ser reutilizável e consistente, adotando-o como base de layout em múltiplos projetos pessoais",
+            "point4": "Documentei padrões de uso e decisões de design para facilitar adoção, manutenção e evolução contínua"
         },
         "title": "React Swift Stacks"
     },
     "stickies": {
         "points": {
-            "point1": "Desenvolvi uma aplicação de notas adesivas digitais utilizando JavaScript puro, HTML e CSS, com foco em simplicidade e usabilidade.",
-            "point2": "Implementei gerenciamento de estado no lado do cliente para criação, edição e remoção de notas em tempo real.",
-            "point3": "Integrei o armazenamento local do navegador (LocalStorage) para garantir persistência dos dados entre sessões.",
-            "point4": "Adicionei funcionalidade de exportação das notas para CSV, permitindo portabilidade e reutilização dos dados."
+            "point1": "Desenvolvi uma aplicação de notas adesivas digitais utilizando JavaScript puro, HTML e CSS, com foco em simplicidade e usabilidade",
+            "point2": "Implementei gerenciamento de estado no lado do cliente para criação, edição e remoção de notas em tempo real",
+            "point3": "Integrei o armazenamento local do navegador (LocalStorage) para garantir persistência dos dados entre sessões",
+            "point4": "Adicionei funcionalidade de exportação das notas para CSV, permitindo portabilidade e reutilização dos dados"
         },
         "title": "Stickies"
     },
     "weatherTailWind": {
         "points": {
-            "point1": "Desenvolvi uma aplicação de previsão do tempo utilizando React, marcando meu primeiro contato com consumo de APIs externas em um frontend moderno.",
-            "point2": "Integrei APIs distintas para busca de localização e obtenção de dados climáticos, coordenando múltiplas requisições assíncronas no fluxo da aplicação.",
-            "point3": "Implementei uma interface responsiva com atualização dinâmica dos dados conforme a localização selecionada pelo usuário.",
-            "point4": "Estruturei o projeto mantendo separação clara entre lógica de dados, estado da aplicação e apresentação visual."
+            "point1": "Desenvolvi uma aplicação de previsão do tempo utilizando React, marcando meu primeiro contato com consumo de APIs externas em um frontend moderno",
+            "point2": "Integrei APIs distintas para busca de localização e obtenção de dados climáticos, coordenando múltiplas requisições assíncronas no fluxo da aplicação",
+            "point3": "Implementei uma interface responsiva com atualização dinâmica dos dados conforme a localização selecionada pelo usuário",
+            "point4": "Estruturei o projeto mantendo separação clara entre lógica de dados, estado da aplicação e apresentação visual"
         },
         "title": "App de Clima com Tailwind"
     }
