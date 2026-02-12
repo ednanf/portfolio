@@ -1,73 +1,73 @@
 {
-    "gameJournalV2": {
-        "title": "Game Journal V2",
+    "boxShadowGenerator": {
         "points": {
-            "point1": "Designed the system with a strong focus on scalability, clear separation of concerns, and predictable state management, applying well-defined patterns across frontend and backend.",
-            "point2": "Implemented a true offline-first approach, ensuring data consistency and uninterrupted user experience regardless of network connectivity.",
-            "point3": "Designed the project with a balanced focus on user experience and technical robustness, weighing architectural decisions, performance, and usability.",
-            "point4": "Took full ownership of the stack and architectural decisions, treating the project as a real product from end to end."
-        }
+            "point1": "Developed an interactive CSS box-shadow generator using only vanilla JavaScript, HTML, and CSS.",
+            "point2": "Implemented real-time style updates, providing immediate visual feedback as parameters are adjusted.",
+            "point3": "Designed configurable controls for all relevant box-shadow properties, enabling experimentation and visual learning."
+        },
+        "title": "Box-Shadow Generator"
     },
     "gameJournal": {
-        "title": "Game Journal",
         "points": {
             "point1": "Built a full-stack PWA, installable on iOS and Android, delivering a web experience close to native.",
             "point2": "Implemented secure user authentication and reliable data persistence, using MongoDB as the storage layer.",
             "point3": "Applied schema-based data validation and access control with Zod, establishing clear boundaries between input, authorization, and domain logic.",
             "point4": "Designed a cursor-based pagination strategy to ensure efficient and scalable backend data access."
-        }
+        },
+        "title": "Game Journal"
     },
-    "miniCommunity": {
-        "title": "Mini Community",
+    "gameJournalV2": {
         "points": {
-            "point1": "Built a full-stack social media PWA using the MERN stack, with a strong focus on smooth navigation and continuous user experience.",
-            "point2": "Implemented schema-based data validation and access control with Zod, ensuring consistency across user interactions.",
-            "point3": "Designed an infinite scrolling experience using cursor-based pagination, enabling efficient and progressive content loading.",
-            "point4": "Designed a SwiftUI-inspired layout system based on vertical and horizontal stacks for flexible UI composition."
-        }
+            "point1": "Designed the system with a strong focus on scalability, clear separation of concerns, and predictable state management, applying well-defined patterns across frontend and backend.",
+            "point2": "Implemented a true offline-first approach, ensuring data consistency and uninterrupted user experience regardless of network connectivity.",
+            "point3": "Designed the project with a balanced focus on user experience and technical robustness, weighing architectural decisions, performance, and usability.",
+            "point4": "Took full ownership of the stack and architectural decisions, treating the project as a real product from end to end."
+        },
+        "title": "Game Journal V2"
     },
     "mernTaskManager": {
-        "title": "MERN Task Manager",
         "points": {
             "point1": "Developed a full-stack MERN application for task management, with a strong emphasis on domain organization and structural clarity.",
             "point2": "Designed a well-structured REST API using Express and Mongoose, clearly separating routes, controllers, and data models.",
             "point3": "Implemented token-based authentication (JWT), ensuring consistent access control across application resources.",
             "point4": "Built a responsive, component-based React interface, prioritizing reusability and long-term maintainability."
-        }
+        },
+        "title": "MERN Task Manager"
+    },
+    "miniCommunity": {
+        "points": {
+            "point1": "Built a full-stack social media PWA using the MERN stack, with a strong focus on smooth navigation and continuous user experience.",
+            "point2": "Implemented schema-based data validation and access control with Zod, ensuring consistency across user interactions.",
+            "point3": "Designed an infinite scrolling experience using cursor-based pagination, enabling efficient and progressive content loading.",
+            "point4": "Designed a SwiftUI-inspired layout system based on vertical and horizontal stacks for flexible UI composition."
+        },
+        "title": "Mini Community"
     },
     "reactSwiftStacks": {
-        "title": "React Swift Stacks",
         "points": {
             "point1": "Created and published a React package on NPM inspired by SwiftUI’s stack-based layout system, focusing on simplicity and developer ergonomics.",
             "point2": "Designed a declarative API around components such as VerticalStack and HorizontalStack, reducing layout composition complexity.",
             "point3": "Built the package to be reusable and consistent, adopting it as the foundational layout system across multiple personal projects.",
             "point4": "Authored clear documentation and design decisions to support adoption, maintenance, and ongoing iteration."
-        }
-    },
-    "weatherTailWind": {
-        "title": "Tailwind Weather App",
-        "points": {
-            "point1": "Developed a weather forecast application using React, marking my first experience consuming external APIs in a modern frontend.",
-            "point2": "Integrated separate APIs for location search and weather data, coordinating multiple asynchronous requests within the application flow.",
-            "point3": "Implemented a responsive interface with dynamic data updates based on the user’s selected location.",
-            "point4": "Structured the project to maintain clear separation between data logic, application state, and visual presentation."
-        }
+        },
+        "title": "React Swift Stacks"
     },
     "stickies": {
-        "title": "Stickies",
         "points": {
             "point1": "Developed a digital sticky notes application using vanilla JavaScript, HTML, and CSS, with a focus on simplicity and usability.",
             "point2": "Implemented client-side state management to support real-time creation, editing, and removal of notes.",
             "point3": "Integrated browser local storage (LocalStorage) to ensure data persistence across sessions.",
             "point4": "Added a CSV export feature, enabling data portability and reuse outside the application."
-        }
+        },
+        "title": "Stickies"
     },
-    "boxShadowGenerator": {
-        "title": "Box-Shadow Generator",
+    "weatherTailWind": {
         "points": {
-            "point1": "Developed an interactive CSS box-shadow generator using only vanilla JavaScript, HTML, and CSS.",
-            "point2": "Implemented real-time style updates, providing immediate visual feedback as parameters are adjusted.",
-            "point3": "Designed configurable controls for all relevant box-shadow properties, enabling experimentation and visual learning."
-        }
+            "point1": "Developed a weather forecast application using React, marking my first experience consuming external APIs in a modern frontend.",
+            "point2": "Integrated separate APIs for location search and weather data, coordinating multiple asynchronous requests within the application flow.",
+            "point3": "Implemented a responsive interface with dynamic data updates based on the user’s selected location.",
+            "point4": "Structured the project to maintain clear separation between data logic, application state, and visual presentation."
+        },
+        "title": "Tailwind Weather App"
     }
 }

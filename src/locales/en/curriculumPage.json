@@ -2,19 +2,19 @@
     "certifications": {
         "list": {
             "cert1": {
-                "name": "The Complete JavaScript Course: From Zero to Expert",
+                "name": "The Complete JavaScript Course: From Zero to Expert (Udemy)",
                 "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
             },
             "cert2": {
-                "name": "React: The Complete Guide",
+                "name": "React: The Complete Guide (Udemy)",
                 "url": "https://www.udemy.com/certificate/UC-1165a0e7-9da6-4556-bb71-00d6d92417cf/"
             },
             "cert3": {
-                "name": "Node.js, Express, MongoDB & More",
+                "name": "Node.js, Express, MongoDB & More (Udemy)",
                 "url": "https://www.udemy.com/certificate/UC-0f7beb5f-3bcb-4d02-899d-a03f7049afe8/"
             },
             "cert5": {
-                "name": "iOS & Swift – The Complete iOS App Development Bootcamp",
+                "name": "iOS & Swift – The Complete iOS App Development Bootcamp (Udemy)",
                 "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
             },
             "cert6": {
@@ -40,11 +40,11 @@
     "education": {
         "bachelor": {
             "degree": "Bachelor of Law – Faculdade de Direito de Franca, 2012",
-            "focus": "Key Skills: Analytical reasoning, structured problem-solving, and a meticulous attention to detail"
+            "focus": "Core competencies: analytical reasoning, structured problem-solving, and strong attention to detail."
         },
         "postgrad": {
             "degree": "Postgraduate in Analysis and Development of Systems – PUC, 2025",
-            "focus": "Key Skills: Web Standards, UX, Frontend (React), Backend (Node.js), Agile Methodologies"
+            "focus": "Core competencies: web standards, UX, frontend development with React, backend development with Node.js, and agile methodologies."
         },
         "title": "Education"
     },
@@ -54,17 +54,17 @@
         "title": "Languages"
     },
     "profile": {
-        "body": "A detail-oriented developer transitioning from a background in Law, now focused on building fullstack applications with React, Node.js, and MongoDB. Proven ability to self-teach and deliver complete projects from concept to deployment. Ready to apply a unique blend of analytical rigor and technical skill to a professional development team.",
+        "body": "Fullstack developer focused on React, Node.js, and MongoDB, with strong attention to code quality, structure, and architectural clarity. Background in Law, bringing analytical reasoning, organization, and rigor to problem-solving. Experienced in building complete applications from design to deployment, with autonomy and technical ownership.",
         "title": "Developer Profile"
     },
     "techStack": {
+        "title": "Tech Stack",
         "items": {
             "item1": "Languages: TypeScript, JavaScript (ES6+)",
             "item2": "Frontend: React, CSS Modules, Responsive Design, PWAs",
             "item3": "Backend: Node.js, Express.js, REST APIs, JWT Authentication",
-            "item4": "Databases & ORMs: MongoDB, Mongoose",
-            "item5": "Tooling & Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
-        },
-        "title": "Tech Stack"
+            "item4": "Database and ODMs: MongoDB, Mongoose",
+            "item5": "Tooling and Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
+        }
     }
 }
