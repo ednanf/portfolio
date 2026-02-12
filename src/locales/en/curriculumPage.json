@@ -29,7 +29,7 @@
     "contact": {
         "cv": {
             "text": "PDF Version",
-            "url": "https://res.cloudinary.com/ednan/image/upload/v1763467970/CV-2025-EN_v2.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/v1770913464/CV-2026-EN_u4poal.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -43,7 +43,7 @@
             "focus": "Core competencies: analytical reasoning, structured problem-solving, and strong attention to detail."
         },
         "postgrad": {
-            "degree": "Postgraduate in Analysis and Development of Systems – PUC, 2025",
+            "degree": "Postgraduate Degree in Analysis and Development of Systems – PUC, 2025",
             "focus": "Core competencies: web standards, UX, frontend development with React, backend development with Node.js, and agile methodologies."
         },
         "title": "Education"
@@ -54,7 +54,7 @@
         "title": "Languages"
     },
     "profile": {
-        "body": "Fullstack developer focused on React, Node.js, and MongoDB, with strong attention to code quality, structure, and architectural clarity. Background in Law, bringing analytical reasoning, organization, and rigor to problem-solving. Experienced in building complete applications from design to deployment, with autonomy and technical ownership.",
+        "body": "Fullstack developer focused on React, Node.js, and MongoDB, with strong attention to code quality, structure, and architectural clarity. Background in Law, bringing analytical reasoning, organization, and rigor to problem-solving. Experienced in building complete applications from design to deployment, with autonomy and strong technical ownership.",
         "title": "Developer Profile"
     },
     "techStack": {

@@ -18,7 +18,7 @@
     },
     "gameJournalV2": {
         "points": {
-            "point1": "Designed the system with a strong focus on scalability, clear separation of concerns, and predictable state management, applying well-defined patterns across frontend and backend.",
+            "point1": "Designed the system with a strong focus on scalability, clear separation of concerns, predictable state management, and a balanced approach to user experience and technical robustness, applying well-defined patterns across frontend and backend.",
             "point2": "Implemented a true offline-first approach, ensuring data consistency and uninterrupted user experience regardless of network connectivity.",
             "point3": "Shaped the project with a balanced focus on user experience and technical robustness, weighing architectural decisions, performance, and usability.",
             "point4": "Took full ownership of the stack and architectural decisions, treating the project as a real product from end to end."
