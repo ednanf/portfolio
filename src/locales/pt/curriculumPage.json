@@ -29,7 +29,7 @@
     "contact": {
         "cv": {
             "text": "Versão em PDF",
-            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_1-PT-BR_zfqqyk.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_2-PT-BR_atyxth.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -54,7 +54,7 @@
         "title": "Idiomas"
     },
     "profile": {
-        "body": "Desenvolvedor fullstack com foco em React, Node.js e MongoDB, com forte atenção à qualidade de código, estrutura e clareza arquitetural. Background em Direito, trazendo raciocínio analítico, organização e rigor na resolução de problemas. Experiência na construção de aplicações completas, do design à implantação, com autonomia e responsabilidade técnica.",
+        "body": "Desenvolvedor fullstack com foco em React, Node.js e MongoDB, com forte atenção à qualidade de código, estrutura e clareza arquitetural. Background em Direito, trazendo raciocínio analítico, organização e rigor na resolução de problemas. Experiência no desenvolvimento e deploy de aplicações fullstack de ponta a ponta, com forte senso de ownership sobre arquitetura e implementação.",
         "title": "Perfil de Desenvolvedor"
     },
     "techStack": {
@@ -68,23 +68,23 @@
                 "title": "Frontend"
             },
             "backend": {
-                "content": "Node.js, Express.js, REST APIs, Autenticação JWT",
+                "content": "Node.js, Express.js, Autenticação JWT",
                 "title": "Backend"
             },
             "data": {
                 "content": "APIs REST, JSON, Fetch API / Axios",
-                "title": "Dados e APIs"
+                "title": "APIs e Manipulação de Dados"
             },
             "database": {
                 "content": "MongoDB, Mongoose",
                 "title": "Banco de Dados"
             },
             "testing": {
-                "content": "Jest, React Testing Library",
+                "content": "Jest",
                 "title": "Testes"
             },
             "tooling": {
-                "content": "Git, npm, Vite (configuração de projetos e build), Docker (ambiente local para MongoDB), ESLint, Prettier, Zod, tsx, Helmet, CORS",
+                "content": "Git, npm, Vite (configuração de projetos e build), Docker (ambiente local de desenvolvimento para MongoDB), ESLint, Prettier, Zod, tsx, Helmet, CORS",
                 "title": "Ferramentas e Ambiente de Desenvolvimento"
             }
         },
