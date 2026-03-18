@@ -7,17 +7,31 @@ import { PiDownloadSimpleLight } from 'react-icons/pi';
 import styles from './CurriculumPage.module.css';
 import sharedStyles from '../shared.module.css';
 
+type TechCategory = {
+    title: string;
+    content: string;
+};
+
+type TechCategories = Record<string, TechCategory>;
+
 const CurriculumPage = () => {
     const { t } = useTranslation('curriculumPage');
 
+    const techCategories = t('techStack.categories', {
+        returnObjects: true,
+    }) as TechCategories;
+
     return (
         <div className={sharedStyles.pageContent}>
+            {/* CONTACT */}
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('contact.title')}</H2Custom>
+
                 <div className={styles.sectionContent}>
                     <ul className={sharedStyles.list}>
                         <li>{t('contact.name')}</li>
                         <li>{t('contact.email')}</li>
+
                         <li>
                             <a
                                 href="https://www.linkedin.com/in/ednanrff/"
@@ -39,6 +53,7 @@ const CurriculumPage = () => {
                             </a>
                         </li>
                     </ul>
+
                     <span className={styles.viewMore}>
                         <a
                             className={styles.link}
@@ -52,38 +67,41 @@ const CurriculumPage = () => {
                 </div>
             </section>
 
+            {/* PROFILE */}
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('profile.title')}</H2Custom>
+
                 <div className={styles.sectionContent}>
                     <p>{t('profile.body')}</p>
                 </div>
             </section>
 
+            {/* TECH STACK */}
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('techStack.title')}</H2Custom>
+
                 <div className={styles.sectionContent}>
-                    <div className={styles.sectionContent}>
-                        <div className={styles.techStack}>
-                            {Object.entries(t('techStack.categories', { returnObjects: true })).map(
-                                ([key, category]: any) => (
-                                    <div key={key} className={styles.techCategory}>
-                                        <h3 className={styles.techTitle}>{category.title}</h3>
-                                        <p className={styles.techContent}>{category.content}</p>
-                                    </div>
-                                ),
-                            )}
-                        </div>
+                    <div className={styles.techStack}>
+                        {Object.entries(techCategories).map(([key, category]) => (
+                            <div key={key} className={styles.techCategory}>
+                                <h3 className={styles.techTitle}>{category.title}</h3>
+                                <p className={styles.techContent}>{category.content}</p>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
 
+            {/* EDUCATION */}
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('education.title')}</H2Custom>
+
                 <div className={styles.sectionContent}>
                     <div className={styles.educationItem}>
                         <h3>{t('education.postgrad.degree')}</h3>
                         <p>{t('education.postgrad.focus')}</p>
                     </div>
+
                     <div className={styles.educationItem}>
                         <h3>{t('education.bachelor.degree')}</h3>
                         <p>{t('education.bachelor.focus')}</p>
@@ -91,8 +109,10 @@ const CurriculumPage = () => {
                 </div>
             </section>
 
+            {/* CERTIFICATIONS */}
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('certifications.title')}</H2Custom>
+
                 <div className={styles.sectionContent}>
                     <ul className={sharedStyles.list}>
                         <li>
@@ -158,12 +178,13 @@ const CurriculumPage = () => {
                 </div>
             </section>
 
+            {/* LANGUAGES */}
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('languages.title')}</H2Custom>
+
                 <div className={styles.sectionContent}>
                     <ul className={sharedStyles.list}>
                         <li>{t('languages.english')}</li>
-
                         <li>{t('languages.portuguese')}</li>
                     </ul>
                 </div>
