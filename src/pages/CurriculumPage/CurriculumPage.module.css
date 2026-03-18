@@ -1,50 +1,68 @@
 .container {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
 }
 
 /* Avoid extra padding on the first item only */
 .container:not(:first-child) {
-  padding: 1rem 0;
+    padding: 1rem 0;
 }
 
 .sectionContent {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .links {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
 }
 
 .educationItem:not(:last-child) {
-  padding-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .link svg:not(.icon),
 .sectionContent ul a svg:not(.icon) {
-  width: 12px;
-  height: 12px;
-  flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
 }
 
 .link {
-  display: inline-flex;
-  align-items: center;
-  gap: 3px;
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
 .viewMore {
-  display: block;
-  margin-top: 1rem;
+    display: block;
+    margin-top: 1rem;
 }
+
+.techStack {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.techCategory {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.techTitle {
+    font-weight: 600;
+
+}
+

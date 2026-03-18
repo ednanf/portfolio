@@ -62,13 +62,18 @@ const CurriculumPage = () => {
             <section className={styles.container}>
                 <H2Custom iconSize={20}>{t('techStack.title')}</H2Custom>
                 <div className={styles.sectionContent}>
-                    <ul className={sharedStyles.list}>
-                        <li>{t('techStack.items.item1')}</li>
-                        <li>{t('techStack.items.item2')}</li>
-                        <li>{t('techStack.items.item3')}</li>
-                        <li>{t('techStack.items.item4')}</li>
-                        <li>{t('techStack.items.item5')}</li>
-                    </ul>
+                    <div className={styles.sectionContent}>
+                        <div className={styles.techStack}>
+                            {Object.entries(t('techStack.categories', { returnObjects: true })).map(
+                                ([key, category]: any) => (
+                                    <div key={key} className={styles.techCategory}>
+                                        <h3 className={styles.techTitle}>{category.title}</h3>
+                                        <p className={styles.techContent}>{category.content}</p>
+                                    </div>
+                                ),
+                            )}
+                        </div>
+                    </div>
                 </div>
             </section>
 

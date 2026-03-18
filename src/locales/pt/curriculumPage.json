@@ -29,7 +29,7 @@
     "contact": {
         "cv": {
             "text": "Versão em PDF",
-            "url": "https://res.cloudinary.com/ednan/image/upload/v1770913464/CV-2026-PTBR_rb703s.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2-PT-BR_qtmua5.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -58,12 +58,35 @@
         "title": "Perfil de Desenvolvedor"
     },
     "techStack": {
-        "items": {
-            "item1": "Linguagens: TypeScript, JavaScript (ES6+)",
-            "item2": "Frontend: React, CSS Modules, Design Responsivo, PWAs",
-            "item3": "Backend: Node.js, Express.js, APIs REST, Autenticação JWT",
-            "item4": "Banco de Dados e ODMs: MongoDB, Mongoose",
-            "item5": "Ferramentas e Qualidade: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
+        "categories": {
+            "languages": {
+                "content": "TypeScript, JavaScript (ES6+)",
+                "title": "Linguagens"
+            },
+            "frontend": {
+                "content": "React (Hooks, Context API), CSS Modules, Design Responsivo, PWAs",
+                "title": "Frontend"
+            },
+            "backend": {
+                "content": "Node.js, Express.js, REST APIs, Autenticação JWT",
+                "title": "Backend"
+            },
+            "data": {
+                "content": "APIs REST, JSON, Fetch API / Axios",
+                "title": "Dados e APIs"
+            },
+            "database": {
+                "content": "MongoDB, Mongoose",
+                "title": "Banco de Dados"
+            },
+            "testing": {
+                "content": "Jest, React Testing Library",
+                "title": "Testes"
+            },
+            "tooling": {
+                "content": "Git, npm, Vite (configuração de projetos e build), Docker (ambiente local para MongoDB), ESLint, Prettier, Zod, tsx, Helmet, CORS",
+                "title": "Ferramentas e Ambiente de Desenvolvimento"
+            }
         },
         "title": "Tecnologias"
     }

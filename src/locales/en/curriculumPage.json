@@ -29,7 +29,7 @@
     "contact": {
         "cv": {
             "text": "PDF Version",
-            "url": "https://res.cloudinary.com/ednan/image/upload/v1770913464/CV-2026-EN_u4poal.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2-EN-US_ciaaux.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -58,12 +58,35 @@
         "title": "Developer Profile"
     },
     "techStack": {
-        "items": {
-            "item1": "Languages: TypeScript, JavaScript (ES6+)",
-            "item2": "Frontend: React, CSS Modules, Responsive Design, PWAs",
-            "item3": "Backend: Node.js, Express.js, REST APIs, JWT Authentication",
-            "item4": "Database and ODMs: MongoDB, Mongoose",
-            "item5": "Tooling and Quality: Git, Zod, ESLint, Prettier, tsx, Helmet, CORS"
+        "categories": {
+            "languages": {
+                "content": "TypeScript, JavaScript (ES6+)",
+                "title": "Languages"
+            },
+            "frontend": {
+                "content": "React (Hooks, Context API), CSS Modules, Responsive Design, PWAs",
+                "title": "Frontend"
+            },
+            "backend": {
+                "content": "Node.js, Express.js, REST APIs, JWT Authentication",
+                "title": "Backend"
+            },
+            "data": {
+                "content": "REST APIs, JSON, Fetch API / Axios",
+                "title": "Data & APIs"
+            },
+            "database": {
+                "content": "MongoDB, Mongoose",
+                "title": "Database"
+            },
+            "testing": {
+                "content": "Jest, React Testing Library",
+                "title": "Testing"
+            },
+            "tooling": {
+                "content": "Git, npm, Vite, Docker (local MongoDB environment), ESLint, Prettier, Zod, tsx, Helmet, CORS",
+                "title": "Tooling & Dev Environment"
+            }
         },
         "title": "Tech Stack"
     }
