@@ -29,7 +29,7 @@
     "contact": {
         "cv": {
             "text": "Versão em PDF",
-            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_2-PT-BR_atyxth.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_2-PT-BR_juolff.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -80,7 +80,7 @@
                 "title": "Banco de Dados"
             },
             "testing": {
-                "content": "Jest",
+                "content": "Jest (testes unitários, estrutura básica de testes e asserções)",
                 "title": "Testes"
             },
             "tooling": {

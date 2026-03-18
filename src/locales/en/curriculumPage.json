@@ -29,7 +29,7 @@
     "contact": {
         "cv": {
             "text": "PDF Version",
-            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_2-EN-US_dozble.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_2-EN-US_hnpak8.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -80,7 +80,7 @@
                 "title": "Database"
             },
             "testing": {
-                "content": "Jest",
+                "content": "Jest (unit testing, basic test structure and assertions)",
                 "title": "Testing"
             },
             "tooling": {
