@@ -165,6 +165,26 @@ const CurriculumPage = () => {
                             </a>
                         </li>
 
+                        <li>
+                            <a
+                                href={t('certifications.list.cert7.url')}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t('certifications.list.cert7.name')} <VscLinkExternal />
+                            </a>
+                        </li>
+
+                        <li>
+                            <a
+                                href={t('certifications.list.cert8.url')}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t('certifications.list.cert8.name')} <VscLinkExternal />
+                            </a>
+                        </li>
+
                         <span className={styles.viewMore}>
                             <a
                                 href={t('certifications.viewAllUrl')}

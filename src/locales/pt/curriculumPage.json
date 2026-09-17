@@ -2,8 +2,8 @@
     "certifications": {
         "list": {
             "cert1": {
-                "name": "The Complete JavaScript Course: From Zero to Expert (Udemy)",
-                "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
+                "name": "English Language Diploma - PBF",
+                "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
             },
             "cert2": {
                 "name": "React: The Complete Guide (Udemy)",
@@ -18,8 +18,16 @@
                 "url": "https://www.udemy.com/certificate/UC-5118f6be-318a-403a-8c50-a0c31e43d7d1/"
             },
             "cert6": {
-                "name": "English Language Diploma - PBF",
-                "url": "https://res.cloudinary.com/ednan/image/upload/v1755606639/Diploma_de_ingle%CC%82s_ggrw5e.pdf"
+                "name": "The Complete JavaScript Course: From Zero to Expert (Udemy)",
+                "url": "https://www.udemy.com/certificate/UC-fb48b444-dd75-420a-a7a5-ef9558c8e420/"
+            },
+            "cert7": {
+                "name": "Go - The Complete Guide",
+                "url": "https://www.udemy.com/certificate/UC-5306d7bd-08c9-46a3-ac4f-318d2dfe7796/"
+            },
+            "cert8": {
+                "name": "Go Backend Masterclass",
+                "url": "https://www.udemy.com/certificate/UC-837a14f5-2d85-4681-927a-40646fb8eb9a/"
             }
         },
         "title": "Certificações",
@@ -29,7 +37,7 @@
     "contact": {
         "cv": {
             "text": "Versão em PDF",
-            "url": "https://res.cloudinary.com/ednan/image/upload/CV-2026-v2_2-PT-BR_juolff.pdf"
+            "url": "https://res.cloudinary.com/ednan/image/upload/v1789648717/CV-PT-BR_ednan.pdf"
         },
         "email": "Email: ednan@frizzera.dev",
         "github": "GitHub",
@@ -60,7 +68,7 @@
     "techStack": {
         "categories": {
             "languages": {
-                "content": "TypeScript, JavaScript (ES6+)",
+                "content": "Go, TypeScript, JavaScript (ES6+)",
                 "title": "Linguagens"
             },
             "frontend": {
@@ -68,7 +76,7 @@
                 "title": "Frontend"
             },
             "backend": {
-                "content": "Node.js, Express.js, Autenticação JWT",
+                "content": "Chi, Node.js, Express.js, Autenticação JWT",
                 "title": "Backend"
             },
             "data": {
@@ -76,7 +84,7 @@
                 "title": "APIs e Manipulação de Dados"
             },
             "database": {
-                "content": "MongoDB, Mongoose",
+                "content": "MariaDB, SQLx, MongoDB, Mongoose",
                 "title": "Banco de Dados"
             },
             "testing": {
