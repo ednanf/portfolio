@@ -9,6 +9,13 @@ const ProjectsPage: React.FC = () => {
     const isPt = Boolean(i18n?.language && i18n.language.startsWith('pt'));
 
     // Explicit keys to make it easier to read
+    const schoolApiPoints = [
+        t('projectsPage:schoolApi.points.point1'),
+        t('projectsPage:schoolApi.points.point2'),
+        t('projectsPage:schoolApi.points.point3'),
+        t('projectsPage:schoolApi.points.point4'),
+    ];
+
     const gameJournalV2Points = [
         t('projectsPage:gameJournalV2.points.point1'),
         t('projectsPage:gameJournalV2.points.point2'),
@@ -61,6 +68,13 @@ const ProjectsPage: React.FC = () => {
     return (
         <div className={sharedStyles.pageContent}>
             <div className={styles.projectList}>
+                <ProjectCard
+                    title={t('projectsPage:schoolApi.title')}
+                    points={schoolApiPoints}
+                    githubUrl="https://github.com/ednanf/school-api"
+                    demoUrl="https://docs.frizzera.dev/api/school-api"
+                />
+
                 <ProjectCard
                     title={t('projectsPage:gameJournalV2.title')}
                     points={gameJournalV2Points}

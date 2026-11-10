@@ -52,6 +52,16 @@
         },
         "title": "React Swift Stacks"
     },
+    "schoolApi": {
+        "points": {
+            "point1": "Developed a REST API using Go, Chi, and MariaDB for school administration, covering students, classes, subjects, teachers, staff, and user accounts.",
+            "point2": "Structured the backend into four layers, with domain-defined interfaces and clear separation between business logic, HTTP transport, and data persistence.",
+            "point3": "Implemented JWT authentication, account activation and recovery, Argon2id password hashing, role-based access control (RBAC), and rate limiting on sensitive endpoints.",
+            "point4": "Built transactional bulk operations for student management, ensuring atomicity and data consistency across imports, updates, and deletions.",
+            "point5": "Standardized JSON responses, pagination, and input validation, while documenting API endpoints and contracts using OpenAPI 3.0."
+        },
+        "title": "School API"
+    },
     "stickies": {
         "points": {
             "point1": "Developed a digital sticky notes application using vanilla JavaScript, HTML, and CSS, with a focus on simplicity and usability.",
