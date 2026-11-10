@@ -3,6 +3,7 @@ import H2Custom from '../../components/H2Custom/H2Custom.tsx';
 import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 import { VscLinkExternal } from 'react-icons/vsc';
 import { PiDownloadSimpleLight } from 'react-icons/pi';
+import { IoIosBook } from 'react-icons/io';
 
 import styles from './CurriculumPage.module.css';
 import sharedStyles from '../shared.module.css';
@@ -50,6 +51,16 @@ const CurriculumPage = () => {
                                 style={{ marginLeft: 8 }}
                             >
                                 <FaGithubSquare /> {t('contact.github')}
+                            </a>{' '}
+                            |{' '}
+                            <a
+                                href="https://docs.frizzera.dev"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.link}
+                                style={{ marginLeft: 8 }}
+                            >
+                                <IoIosBook className={styles.icon} /> {t('contact.zudoku')}
                             </a>
                         </li>
                     </ul>
@@ -61,7 +72,7 @@ const CurriculumPage = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            {t('contact.cv.text')} <PiDownloadSimpleLight className={styles.icon} />
+                            <PiDownloadSimpleLight className={styles.icon} /> {t('contact.cv.text')}
                         </a>
                     </span>
                 </div>
