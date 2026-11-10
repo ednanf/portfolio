@@ -26,7 +26,7 @@
                 "url": "https://www.udemy.com/certificate/UC-5306d7bd-08c9-46a3-ac4f-318d2dfe7796/"
             },
             "cert8": {
-                "name": "Go Backend Masterclass(Udemy)",
+                "name": "Go Backend Masterclass (Udemy)",
                 "url": "https://www.udemy.com/certificate/UC-837a14f5-2d85-4681-927a-40646fb8eb9a/"
             }
         },
@@ -62,7 +62,7 @@
         "title": "Languages"
     },
     "profile": {
-        "body": "Fullstack developer focused on React, Node.js, and MongoDB, with strong attention to code quality, structure, and architectural clarity. Background in Law, bringing analytical reasoning, organization, and rigor to problem-solving. Experienced in building and deploying fullstack applications end-to-end, with strong ownership over architecture and implementation.",
+        "body": "Full-Stack Developer with experience in the JavaScript/TypeScript ecosystem (React and Node.js) and a growing focus on backend development with Go. Hands-on experience building REST APIs, data modeling, authentication, security, and application deployment. I prioritize code quality, maintainability, and architectural clarity. My background in Law complements my technical skills with strong analytical reasoning, attention to detail, and a methodical approach to problem-solving.",
         "title": "Developer Profile"
     },
     "techStack": {
