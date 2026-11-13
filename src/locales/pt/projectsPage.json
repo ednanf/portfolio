@@ -43,6 +43,16 @@
         },
         "title": "Mini Community"
     },
+    "plainly": {
+        "points": {
+            "point1": "Desenvolvi o Plainly em colaboração com o OpenAI Codex, combinando minha direção de produto com desenvolvimento assistido por IA no frontend, backend e implantação",
+            "point2": "Construí uma PWA full-stack de produtividade utilizando React, TypeScript e Vite, com uma API Node.js em Vercel Functions e MongoDB para persistência de dados",
+            "point3": "Projetei um editor minimalista de estrutura hierárquica para projetos, tarefas aninhadas e notas, com atalhos de teclado, reordenação por arrastar e soltar, tags e importação e exportação em texto simples",
+            "point4": "Implementei edição offline com rascunhos locais persistentes e sincronização em nuvem, utilizando controle de revisões para impedir que salvamentos desatualizados sobrescrevam alterações mais recentes",
+            "point5": "Implementei verificação de email, hashing de senhas com bcrypt, sessões em cookies HttpOnly e rate limiting persistido no banco, com acesso aos espaços de trabalho restrito à respectiva conta"
+        },
+        "title": "Plainly"
+    },
     "reactSwiftStacks": {
         "points": {
             "point1": "Criei e publiquei um pacote React no NPM inspirado no sistema de layout em pilhas do SwiftUI, com foco em simplicidade e ergonomia de uso",

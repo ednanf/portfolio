@@ -93,7 +93,7 @@
                 "title": "Testing"
             },
             "tooling": {
-                "content": "Git, npm, Vite (project setup & bundling), Docker (local development environment for MongoDB), ESLint, Prettier, Zod, tsx, Helmet, CORS",
+                "content": "Git, npm, Vite (project setup & bundling), Docker, OpenAI Codex, ESLint, Prettier, Zod, tsx, Helmet, CORS",
                 "title": "Tooling & Dev Environment"
             }
         },

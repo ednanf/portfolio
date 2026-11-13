@@ -9,6 +9,14 @@ const ProjectsPage: React.FC = () => {
     const isPt = Boolean(i18n?.language && i18n.language.startsWith('pt'));
 
     // Explicit keys to make it easier to read
+    const plainlyPoints = [
+        t('projectsPage:plainly.points.point1'),
+        t('projectsPage:plainly.points.point2'),
+        t('projectsPage:plainly.points.point3'),
+        t('projectsPage:plainly.points.point4'),
+        t('projectsPage:plainly.points.point5'),
+    ];
+
     const schoolApiPoints = [
         t('projectsPage:schoolApi.points.point1'),
         t('projectsPage:schoolApi.points.point2'),
@@ -68,6 +76,12 @@ const ProjectsPage: React.FC = () => {
     return (
         <div className={sharedStyles.pageContent}>
             <div className={styles.projectList}>
+                <ProjectCard
+                    title={t('projectsPage:plainly.title')}
+                    points={plainlyPoints}
+                    demoUrl="https://plainly.works"
+                />
+
                 <ProjectCard
                     title={t('projectsPage:schoolApi.title')}
                     points={schoolApiPoints}
